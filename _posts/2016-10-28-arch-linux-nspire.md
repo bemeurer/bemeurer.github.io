@@ -1,5 +1,5 @@
 ---
-title: "Running Arch on the TI Nspire CX"
+title: "Running Arch on the TI Nspire CX Calculator"
 excerpt: "A comprehensive guide on how to compile the Linux kernel for the TI
           Nspire"
 author: bernardo_meurer
@@ -197,7 +197,7 @@ list over on `/etc/pacman.conf`. To do so, uncomment the `IgnorePkg` line, and
 add them, separated by spaces, to it. This will guarantee that these changes
 won't be later overwritten by some system upgrade.
 
-#### Setting up the calculator
+### Setting up the calculator
 
 To run the bootloader for the Linux kernel you will need to
 [jailbreak][ndless] your calculator. There are a lot of good online tutorials on
@@ -224,6 +224,15 @@ files to and from your calculator, Virtual Machines work.
 
 ![Modules]({{ site.url }}/images/calc-files.jpg)
 *Files on the calculator*
+
+### Finishing up
+
+Once the files have been placed on the calculator, the process is done. You may now
+start the OS by executing the bootloader. If you have any questions on how to do this
+you can reference the [initial article][debian-nspire]. Below is a demo video of the 
+calculator playing Doom on Linux.
+
+<iframe width="960" height="540" src="https://www.youtube.com/embed/O3eSspki0Ws" frameborder="0" allowfullscreen></iframe>
 
 
 [ALARM]: archlinuxarm.org
