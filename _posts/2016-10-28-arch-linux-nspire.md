@@ -1,8 +1,6 @@
 ---
 title: "Running Arch on the TI Nspire CX Calculator"
-excerpt: "A comprehensive guide on how to compile the Linux kernel for the TI
-          Nspire"
-author: bernardo_meurer
+excerpt: "A comprehensive guide on how to compile the Linux kernel for the TI Nspire"
 layout: post
 categories: articles
 tags:
@@ -49,7 +47,7 @@ the steps here.
 2.  Run the `ndless-sdk/toolchain/build_toolchain.sh` script.
     *   This will download the toolchain as well as build it for you. It will
         take a while.
-        ![Cross Compiler]({{ site.url }}/images/compiling.jpg)
+        ![Cross Compiler]({{site.url}}/images/2016-10-28-arch-linux-nspire/compiling.jpg)
         *Compiling is tough on the CPU*
 3.  The original guide recommends adding the binaries' path to your `PATH`, but
     since I don't think that amending your `.bashrc` for one-time projects like
@@ -60,7 +58,7 @@ the steps here.
     into it).
 4.  Your cross-compiler should be working now. Test it by running
     `arm-none-eabi-gcc` and see if you get any output.
-    ![Cross Compiler]({{ site.url }}/images/xcomp-working.jpg)
+    ![Cross Compiler]({{site.url}}/images/2016-10-28-arch-linux-nspire/xcomp-working.jpg)
     *You should get output like this*
 
 If you managed to produce output in step 4. that means your Cross Compiler is
@@ -86,7 +84,7 @@ nothing should change for future versions.
 3.  Copy the configuration file to the kernel folder, name it .config
     *   `cp nspire-kernel/4.3.0/config linux-4.3/.config`
 
-![Beginning of .config]({{ site.url }}/images/config.jpg)
+![Beginning of .config]({{site.url}}/images/2016-10-28-arch-linux-nspire/config.jpg)
 *You should be able to get output like this*
 
 With this your kernel is ready for compilation, don't worry, we will get to it
@@ -101,7 +99,7 @@ place. Also confirm that you have the toolchain we compiled in your `PATH`.
 1.  `ARCH=arm make -jX`
     *   `ARCH=arm` specifies the architecture we're building to
     *   `-jX` parallelizes compilation. Replace `X` with your thread count.
-    ![Compiling Linux]({{ site.url }}/images/linux-comp.jpg)
+    ![Compiling Linux]({{site.url}}/images/2016-10-28-arch-linux-nspire/linux-comp.jpg)
     *Compiling the kernel, get yourself a cup of coffee*
 2.  Check that you have the following files
     *   `arch/arm/boot/zImage`
@@ -131,7 +129,7 @@ Arch Linux port for the ARM architecture.
 4.  Untar the file you downloaded into the drive
     *   `sudo bsdtar xzf ArchLinuxARM-armv5-latest.tar.gz -C ~/mnt/`
         Replace `~/mnt` with wherever you mounted your drive.
-        ![Rootfs]({{ site.url }}/images/rootfs.jpg)
+        ![Rootfs]({{site.url}}/images/2016-10-28-arch-linux-nspire/rootfs.jpg)
         *Your rootfs should look like this*
 
 #### Installing modules
@@ -141,7 +139,7 @@ Arch Linux port for the ARM architecture.
 3.  Install modules to the USB drive
     *   `sudo ARCH=arm make modules_install INSTALL_MOD_PATH=~/mnt/`
 
-![Modules]({{ site.url }}/images/modules.jpg)
+![Modules]({{site.url}}/images/2016-10-28-arch-linux-nspire/modules.jpg)
 *Modules installed*
 
 #### Changing root with QEMU
@@ -179,7 +177,7 @@ that with either [`distcc`][distcc] (recommended) or with the following steps:
     one in the list.
 7.  `makepkg -cs --install`
 
-![Downgrade]({{ site.url }}/images/downgrade.jpg)
+![Downgrade]({{site.url}}/images/2016-10-28-arch-linux-nspire/downgrade.jpg)
 *Downgrade in progress*
 
 Whichever way you choose, you can check if it worked by:
@@ -189,7 +187,7 @@ Whichever way you choose, you can check if it worked by:
 *   Running `pacman -Qs` and checking if it lists the kernel as version
     `4.3.0-1`
 
-![Downgraded]({{ site.url }}/images/check-down.jpg)
+![Downgraded]({{site.url}}/images/2016-10-28-arch-linux-nspire/check-down.jpg)
 *Downgrade successful*
 
 Lastly, add the packages `linux-armv5` and `linux-armv5-headers` to your ignore
@@ -222,31 +220,31 @@ files to and from your calculator, Virtual Machines work.
 3.  Place the files you downloaded, `zImage.tns`, and `nspire-cx.dtb.tns` into
     the `linux` folder
 
-![Modules]({{ site.url }}/images/calc-files.jpg)
+![Modules]({{site.url}}/images/2016-10-28-arch-linux-nspire/calc-files.jpg)
 *Files on the calculator*
 
 ### Finishing up
 
 Once the files have been placed on the calculator, the process is done. You may now
 start the OS by executing the bootloader. If you have any questions on how to do this
-you can reference the [initial article][debian-nspire]. Below is a demo video of the 
+you can reference the [initial article][debian-nspire]. Below is a demo video of the
 calculator playing Doom on Linux.
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/O3eSspki0Ws" frameborder="0" allowfullscreen></iframe>
 
 
 [ALARM]: archlinuxarm.org
-[debian-nspire]: {{ site.url }}/articles/debian-on-the-ti-nspire/
+[debian-nspire]: {{site.url}}/articles/debian-on-the-ti-nspire/
 [ndless-sdk]: https://github.com/ndless-nspire/Ndless/wiki/Ndless-SDK:-C-and-assembly-development-introduction
-[bash-src]: {{ site.url }}/files/setpath.sh
+[bash-src]: {{site.url}}/files/setpath.sh
 [nspire-kernel]: https://github.com/bemeurer/nspire-kernel
 [linux]: https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.3.tar.xz
 [ndless]: http://ndless.me/
 [tiplanet]: https://tiplanet.org/forum/ndl3ss.php
-[bootloader]: {{ site.url }}/files/linuxloader2.tns
-[startscript]: {{ site.url }}/files/start_usb.ll2.tns
+[bootloader]: {{site.url}}/files/linuxloader2.tns
+[startscript]: {{site.url}}/files/start_usb.ll2.tns
 [registerqemu]: https://gist.github.com/bemeurer/eded4fe8ef2fb88bfa1e08529e2cb6ca
-[linuxpkg]: {{ site.url }}/files/linux-armv5-4.3.0-1-arm.pkg.tar.xz
-[headerspkg]: {{ site.url }}/files/linux-armv5-headers-4.3.0-1-arm.pkg.tar.xz
+[linuxpkg]: {{site.url}}/files/linux-armv5-4.3.0-1-arm.pkg.tar.xz
+[headerspkg]: {{site.url}}/files/linux-armv5-headers-4.3.0-1-arm.pkg.tar.xz
 [distcc]: https://wiki.archlinux.org/index.php/Distcc
 [pkgbuild]: https://github.com/archlinuxarm/PKGBUILDs/

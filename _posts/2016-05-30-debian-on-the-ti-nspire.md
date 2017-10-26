@@ -1,7 +1,6 @@
 ---
 title: "Running Debian on the TI Nspire CX Calculator"
 excerpt: "using debootstrap and QEMU to run Debian for ARM on the Nspire CX CAS"
-author: bernardo_meurer
 layout: post
 categories: articles
 tags:
