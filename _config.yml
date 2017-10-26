@@ -13,12 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+author: Bernardo Meurer
 title: null pointer
 email: meurebernardo@gmail.com
 description: Opinions expressed here are nobody's
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://meurer.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: bemeurer
+twitter_username: lovesegfault
 disqus:
   shortname: meurer
 
