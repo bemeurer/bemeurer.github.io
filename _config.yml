@@ -33,6 +33,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gists
+  - jekyll-seo-tag
+
+google_analytics: UA-75408326-1
+webmaster_verifications:
+  google: 1234
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
