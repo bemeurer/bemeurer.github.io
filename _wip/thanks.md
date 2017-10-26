@@ -1,16 +1,6 @@
 ---
 title: "Thank you"
-excerpt: "A definitely incomplete attempt to appreciate people who've helped me"
-layout: post
-categories: articles
-tags:
-  - personal
-  - thank
-  - you
-  - thanks
-  - life
-comments: true
-share: true
+
 ---
 
 - Daniel Sank
