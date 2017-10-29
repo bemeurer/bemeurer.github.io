@@ -65,7 +65,7 @@ Which constitutes all the "lesser forms of Washington", meaning concepts which a
 (\forall \omega \in \Omega)(|\omega| < |\Omega|)
 {%endkatex%}
 
-Finally, we conclude that it follows from the tautological statement {%katex%}``\mathcal S is \mathcal S"{%endkatex%}, that any change in the composition of the subject-concept yields a new concept which is not the original, and therefore statements are only true insofar as their predicate is part of the composition of the subject-concept, for otherwise we violate the Law of Identity. In other words,
+Finally, we conclude that it follows from the tautological statement {%katex%}``\mathcal S\text{ is }\mathcal S"{%endkatex%}, that any change in the composition of the subject-concept yields a new concept which is not the original, and therefore statements are only true insofar as their predicate is part of the composition of the subject-concept, for otherwise we violate the Law of Identity. In other words,
 {%katex display%}
     \mathcal S + \phi \text{ is true }\iff \phi\in\mathcal C(\mathcal S)
 {%endkatex%}
