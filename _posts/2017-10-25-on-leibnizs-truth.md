@@ -17,7 +17,7 @@ We begin by defining a statement as being any sentence of form
 {%katex display%}
     \mathcal S + \phi
 {%endkatex%}
-Where {%katex%}\mathcal S{%endkatex%} is a *subject* and {%katex%}\phi{%endkatex%} is a *predicate*. The sentences "Spinoza died in the Hague", and "Grey is grey", for example, qualify as statements. In the first, we have "Spinoza" as the subject, and "died in the Hague" as the predicate. Note that, for a sentence to qualify as a statement, it's predicate does not need to contain an object (consider the sentence {%katex%}``X\text{ is.}"{%endkatex%}) Statements are said to be *true* if and only if "the *concept-predicate* is contained in the *concept-subject*" (Leiniz's Concept-Containment Theory of Truth).
+Where {%katex%}\mathcal S{%endkatex%} is a *subject* and {%katex%}\phi{%endkatex%} is a *predicate*. The sentences "Spinoza died in the Hague", and "Grey is grey", for example, qualify as statements. In the first, we have "Spinoza" as the subject, and "died in the Hague" as the predicate. Note that, for a sentence to qualify as a statement, its predicate does not need to contain an object (consider the sentence {%katex%}``X\text{ is.}"{%endkatex%}) Statements are said to be *true* if and only if "the *concept-predicate* is contained in the *concept-subject*" (Leiniz's Concept-Containment Theory of Truth).
 {%katex display%}
     \mathcal S + \phi\text{ is true} \iff \phi\in\mathcal C(\mathcal S)
 {%endkatex%}
