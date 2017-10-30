@@ -62,7 +62,7 @@ Moreover, we can see that there is a set of concepts
 {%endkatex%}
 Which constitutes all the "lesser forms of Washington", meaning concepts which are proper subsets of the main {%katex%}\mathcal C(W){%endkatex%}. According to Leibniz, the only thing that separates these lesser forms to the Washington we know is that God only gave existence to one such concept ({%katex%}\mathcal C(W){%endkatex%}). This shows us something curious, which is that every concept that exists is the largest (in terms of the number of predicates that compose it) that it could be. In other words, a concept is defined by the set of its characteristics, and any proper subset of it defines something which is not the concept itself, formally:
 {%katex display%}
-(\forall \omega \in \Omega)(|\omega| < |\Omega|)
+(\forall \omega \in \Omega)(|\omega| < |\mathcal C(W)|)
 {%endkatex%}
 
 Finally, we conclude that it follows from the tautological statement {%katex%}``\mathcal S\text{ is }\mathcal S"{%endkatex%}, that any change in the composition of the subject-concept yields a new concept which is not the original, and therefore statements are only true insofar as their predicate is part of the composition of the subject-concept, for otherwise we violate the Law of Identity. In other words,
