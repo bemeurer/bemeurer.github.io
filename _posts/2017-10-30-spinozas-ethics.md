@@ -27,7 +27,6 @@ This concept flows quite naturally, it simply states self-causation as a propert
 > II. A thing is called finite after its kind, when it can be limited by another thing of same nature; for instance, a body is called finite because we always conceive another greater body. So, also, a thought is limited by another thought, but a body is not limited by thought, nor a thought by body.
 
 
-
 #### III/IV. Attribute & Substance
 
 I will present these two concepts together due to the fact that they are dangerously similar. Fundamentally, the difference between an attribute and a substance in Spinoza's Ethics is a nuance, and much discussion exists on what truly *is* the difference between them, what follows is my understanding, and  in no way is an unquestionable interpretation of his meaning[^1]. In Ethics he writes,
@@ -43,7 +42,7 @@ Although the language here is unhelpful at best, a useful way to consider this i
 
 Formally, let {%katex%}\mathcal C{%endkatex%} denote the set of all characteristics of things, it includes things such as motion, which is a characteristic of a substance under the light of extension, volume, weight, and so on. Now consider the set of all substances {%katex%}\mathcal S{%endkatex%}, we can understand an attribute as being a function {%katex%}a(s){%endkatex%} such that
 {%katex display%}
-    a\colon S\in\mathcal P(\mathcal S) \to \mathcal P(\mathcal C)
+    a\colon \mathscr S\in\mathcal P(\mathcal S) \to \mathcal P(\mathcal C)
 {%endkatex%}
 In other words, an attribute maps a substance to a set of characteristics, and different attributes will map into different characteristics, different ways to perceive the substance. Note that for a given {%katex%}a{%endkatex%}, not all substances in {%katex%}S{%endkatex%} are necessarily valid inputs. In other words, there could be a substance which we cannot characterize through extension, for example (we will later see this not to be the case.)
 
@@ -65,7 +64,7 @@ We will later on see why this concept is important, but for now we can simply un
 > which is absolutely infinite, contains in its essence whatever expresses
 > reality, and involves no negation.
 
-Here I am partial to assume a slight mistake on Spinoza's part, for if a substance were to be *composed* of attributes, then it couldn't be conceived through itself and independently of any other conception, it would depend on the conception of its attributes. We will assume he meant that God is such that, if we consider the
+Here I am partial to assume a slight mistake on Spinoza's part, for if a substance were to be *composed* of attributes, then it couldn't be conceived through itself and independently of any other conception, it would depend on the conception of its attributes. We will assume he meant that God is such that any given attribute {%katex%}a{%endkatex%} we pick, God can be seen through its light
 
 #### VII. Freedom
 
