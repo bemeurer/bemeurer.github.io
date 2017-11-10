@@ -1,5 +1,6 @@
 ---
 categories: articles
+markup: "mmark"
 comments: true
 date: 2016-05-30T00:00:00Z
 excerpt: using debootstrap and QEMU to run Debian for ARM on the Nspire CX CAS
