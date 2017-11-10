@@ -1,5 +1,6 @@
 ---
 categories: articles
+markup: "mmark"
 comments: true
 date: 2016-10-28T00:00:00Z
 excerpt: A comprehensive guide on how to compile the Linux kernel for the TI Nspire
