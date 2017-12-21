@@ -7,7 +7,7 @@ weight: 100
 ---
 
 
-<img src="/images/me.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="/images/me.jpg" alt="Me" style="width: 400px;"/>
 ⟵ Me
 
 Hey there, I'm Bernardo and I'm a Computer Science student. I set up this blog to share
