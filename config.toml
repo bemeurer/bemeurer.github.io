@@ -1,0 +1,26 @@
+baseURL = "http://meurer.xyz/"
+languageCode = "en-us"
+title = "null pointer"
+theme = "kiera"
+copyright = "Copyright &copy; 2017 - Bernardo Meurer"
+enableEmoji = true
+enableRobotsTXT = true
+enableGitInfo = true
+canonifyurls = true
+
+googleAnalytics = "UA-75408326-1"
+disqusShortname = "meurer"
+summaryLength = 30
+pygmentsCodeFences = true
+
+[author]
+    name = "Bernardo Meurer"
+    github = "bemeurer"
+    linkedin = "meurerbernardo"
+    twitter = "lovesegfault"
+
+[params]
+    googleAnalytics = "UA-75408326-1"
+    disqusShortname = "meurer"
+    smartToc = true
+    paginate = 10

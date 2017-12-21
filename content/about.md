@@ -1,10 +1,12 @@
 ---
 title: About Me
-layout: page
 excerpt: "Who are you again?"
+menu: "main"
+meta: "false"
 ---
 
-<img src="{{ site.url }}/images/me.jpg" alt="Drawing" style="width: 400px;"/>
+
+<img src="/images/me.jpg" alt="Drawing" style="width: 400px;"/>
 ⟵ Me
 
 Hey there, I'm Bernardo and I'm a Computer Science student. I set up this blog to share
@@ -41,8 +43,6 @@ curiosity's sake, some other things I enjoy:
   * The World As Will and Representation - Arthur Schopenhauer
   * In Defense of Lost Causes - Slavoj Zizek
   * Buddenbrooks - Thoman Mann
-
-<a href="http://stackexchange.com/users/2377884/bernard-meurer"><img src="http://stackexchange.com/users/flair/2377884.png" width="208" height="58" alt="profile for Bernard Meurer on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Bernard Meurer on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
 
 [fact]: http://www.luschny.de/math/factorial/SwingIntro.pdf
 [cappy]: https://github.com/DanielSank/cappy
