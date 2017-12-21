@@ -9,6 +9,8 @@ tags:
   - sucks
   - frustration
   - opinion
+categories:
+    - essay
 comments: true
 share: true
 markup: "mmark"

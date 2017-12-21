@@ -9,6 +9,8 @@ tags:
   - theory
   - leibniz
   - truth
+categories:
+    - essay
 comments: true
 share: true
 markup: "mmark"

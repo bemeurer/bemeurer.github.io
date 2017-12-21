@@ -3,6 +3,7 @@ title: About Me
 excerpt: "Who are you again?"
 menu: "main"
 meta: "false"
+weight: 100
 ---
 
 
