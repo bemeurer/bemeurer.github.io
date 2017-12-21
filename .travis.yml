@@ -3,6 +3,9 @@ go:
   - master
 git:
   depth: 1
+branches:
+  only:
+  - source
 env:
   global:
     - SSH_KEY="travis"
