@@ -1,6 +1,8 @@
 language: go
 go:
   - master
+git:
+  depth: 1
 env:
   global:
     - SSH_KEY="travis"
