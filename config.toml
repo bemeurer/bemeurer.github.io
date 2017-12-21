@@ -20,6 +20,7 @@ pygmentsCodeFences = true
     twitter = "lovesegfault"
 
 [params]
+	tagline = "Ideas expressed here are nobody's."
     googleAnalytics = "UA-75408326-1"
     disqusShortname = "meurer"
     smartToc = true
