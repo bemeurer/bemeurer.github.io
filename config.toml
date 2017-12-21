@@ -1,4 +1,4 @@
-baseURL = "http://meurer.xyz/"
+baseURL = "https://meurer.xyz/"
 languageCode = "en-us"
 title = "null pointer"
 theme = "kiera"
