@@ -11,7 +11,8 @@ canonifyurls = true
 googleAnalytics = "UA-75408326-1"
 disqusShortname = "meurer"
 summaryLength = 30
-pygmentsCodeFences = true
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
 [author]
     name = "Bernardo Meurer"
