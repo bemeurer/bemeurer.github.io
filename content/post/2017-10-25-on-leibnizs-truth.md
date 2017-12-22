@@ -47,25 +47,25 @@ Unlike the identity statement we saw above, here the subject-concept is *not* th
 Let us begin by acknowledging Washington as being more than an individual, we are referring here to a *concept* of Washington. This concept, we must note, is not atomic, and can be divided into a set of elements that compose it, which is to say we have
 
 \\[
-\mathcal C(\mathcal S) = \{\alpha_1, \alpha_2, \ldots, \alpha_n\}, n\in\Bbb N \cup \{+\infty\}
+\mathcal C(\mathcal S) = \\{\alpha_1, \alpha_2, \ldots, \alpha_n\\}, n\in\Bbb N \cup \\\{+\infty\\\}
 \\]
 
-Denoting a concept-subject as being composed of \\(n\\) characteristics. We now note, however, that any such \\(\mathcal C(\mathcal S)\\) is unique, that is to say that there can be no subject \\(\mathcal S'\\) such that \\(\mathcal C(\mathcal S') = \{\alpha_1, \alpha_2, \ldots, \alpha_n\}\\), for were that to be the case, then it would follow that \\(\mathcal C(\mathcal S) \subset \mathcal C(\mathcal S')\\) and \\(\mathcal C(\mathcal S') \subset \mathcal C(\mathcal S)\\), which trivially implies \\(\mathcal C(\mathcal S) = \mathcal C(\mathcal S') \\), and subsequently that \\(\mathcal S = \mathcal S'\\). This is to say that every concept is uniquely defined by the union of its parts, and if two concepts are composed of exactly the same elements, then they are in fact the same concept. Applying this to our statement, we can say that there exists a concept of our subject, Washington, \\(\mathcal C(W)\\), composed of \\(n\\) \\(\alpha\\)-elements, one of which takes form \\(\alpha_k = \text{crossed the Delaware}\\), with \\(1 < k < n\\). This is to say that
+Denoting a concept-subject as being composed of \\(n\\) characteristics. We now note, however, that any such \\(\mathcal C(\mathcal S)\\) is unique, that is to say that there can be no subject \\(\mathcal S'\\) such that \\(\mathcal C(\mathcal S') = \\{\alpha_1, \alpha_2, \ldots, \alpha_n\\}\\), for were that to be the case, then it would follow that \\(\mathcal C(\mathcal S) \subset \mathcal C(\mathcal S')\\) and \\(\mathcal C(\mathcal S') \subset \mathcal C(\mathcal S)\\), which trivially implies \\(\mathcal C(\mathcal S) = \mathcal C(\mathcal S') \\), and subsequently that \\(\mathcal S = \mathcal S'\\). This is to say that every concept is uniquely defined by the union of its parts, and if two concepts are composed of exactly the same elements, then they are in fact the same concept. Applying this to our statement, we can say that there exists a concept of our subject, Washington, \\(\mathcal C(W)\\), composed of \\(n\\) \\(\alpha\\)-elements, one of which takes form \\(\alpha_k = \text{crossed the Delaware}\\), with \\(1 < k < n\\). This is to say that
 
 \\[
-\mathcal C(W) = \{\alpha_1, \alpha_2, \ldots, \alpha_k, \ldots, \alpha_n\}
+\mathcal C(W) = \\{\alpha_1, \alpha_2, \ldots, \alpha_k, \ldots, \alpha_n\\}
 \\]
 
 And also that, fundamentally, \\(\text{Washington is Washington}\\) if, and only if
 
 \\[
-\mathcal C(W) = \bigcup\_\{i=1\}^{n}\alpha_i
+\mathcal C(W) = \bigcup_\{i=1\}^{n}\alpha_i
 \\]
 
-Let us now suppose that Washington did *not* cross the Delaware. This would mean we now have a concept, which we'll denote \\(\mathcal C(W')= \{\beta_1, \beta_2, \ldots, \beta_{n-1}\}\\) where
+Let us now suppose that Washington did *not* cross the Delaware. This would mean we now have a concept, which we'll denote \\(\mathcal C(W')= \\{\beta_1, \ldots, \beta\_\{n-1\}\\}\\) where
 
 \\[
-(\forall \alpha_i\in \mathcal C(W)\setminus\{\alpha_k\})(\exists\beta_j\in\mathcal C(W'))\text{ s.t. }\alpha_i = \beta_j
+(\forall \alpha_i\in \mathcal C(W)\setminus\\{\alpha_k\\})(\exists\beta_j\in\mathcal C(W'))\text{ s.t. }\alpha_i = \beta_j
 \\]
 
 In other words, we have a concept \\(\mathcal C(W')\\) that contains all elements of \\(\mathcal C(W)\\) *except* \\(\alpha_k\\). This, however, implies that while \\(\mathcal C(W') \subset \mathcal C(W)\\), the converse isn't true, and \\(\mathcal C(W) \not\subset \mathcal C(W')\\). Since we had previously defined that the only for way two subject-concepts to be the same, namely \\(\mathcal C(\mathcal S) = \mathcal C(\mathcal S') \iff \mathcal S = \mathcal S'\\), is for them to mutually contain each other, we conclude that \\(\mathcal C(W) \neq \mathcal C(W')\\), and most importantly
