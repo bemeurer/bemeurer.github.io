@@ -1,5 +1,5 @@
 ---
-title: "On Leibnizs Truth"
+title: "On Leibniz's Truth"
 excerpt: "A quick review of Leibniz's Concept-Containment and an attempt at formalization"
 date: 2017-10-25T00:00:00Z
 draft: false
@@ -47,7 +47,7 @@ Unlike the identity statement we saw above, here the subject-concept is *not* th
 Let us begin by acknowledging Washington as being more than an individual, we are referring here to a *concept* of Washington. This concept, we must note, is not atomic, and can be divided into a set of elements that compose it, which is to say we have
 
 \\[
-\mathcal C(\mathcal S) = \\{\alpha_1, \alpha_2, \ldots, \alpha_n\\}, n\in\Bbb N \cup \\\{+\infty\\\}
+\mathcal C(\mathcal S) = \\{\alpha_1, \alpha_2, \ldots, \alpha_n\\},\quad n\in\Bbb N \cup \\\{+\infty\\\}
 \\]
 
 Denoting a concept-subject as being composed of \\(n\\) characteristics. We now note, however, that any such \\(\mathcal C(\mathcal S)\\) is unique, that is to say that there can be no subject \\(\mathcal S'\\) such that \\(\mathcal C(\mathcal S') = \\{\alpha_1, \alpha_2, \ldots, \alpha_n\\}\\), for were that to be the case, then it would follow that \\(\mathcal C(\mathcal S) \subset \mathcal C(\mathcal S')\\) and \\(\mathcal C(\mathcal S') \subset \mathcal C(\mathcal S)\\), which trivially implies \\(\mathcal C(\mathcal S) = \mathcal C(\mathcal S') \\), and subsequently that \\(\mathcal S = \mathcal S'\\). This is to say that every concept is uniquely defined by the union of its parts, and if two concepts are composed of exactly the same elements, then they are in fact the same concept. Applying this to our statement, we can say that there exists a concept of our subject, Washington, \\(\mathcal C(W)\\), composed of \\(n\\) \\(\alpha\\)-elements, one of which takes form \\(\alpha_k = \text{crossed the Delaware}\\), with \\(1 < k < n\\). This is to say that
