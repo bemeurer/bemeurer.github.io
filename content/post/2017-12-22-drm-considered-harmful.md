@@ -1,6 +1,5 @@
 ---
 title: "DRM Considered Harmful"
-excerpt: "Showing DRM as fundamentally anti-copyright."
 date: 2017-12-22T13:34:17Z
 draft: false
 tags:
@@ -13,7 +12,6 @@ tags:
 categories:
     - essay
 comments: true
-share: true
 markup: "mmark"
 ---
 
