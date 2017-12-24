@@ -51,7 +51,7 @@ The dawn of the Digital Era did not change the fundament of copyright law. As sh
 
 <a name="netanel"></a>6. Netanel, Neil Weinstock, "Locating Copyright Within the First Amendment" Skein. *Stanford Law Review*, Vol. 54, October 2001. Available at SSRN: [www.ssrn.com/abstract=267848](http://www.ssrn.com/abstract=267848) or [www.dx.doi.org/10.2139/ssrn.267848](http://www.dx.doi.org/10.2139/ssrn.267848)
 
-<a name="wortley"></a>7. Wortley, Edward. "Statute of Anne." *The Avalon Project: The Statute of Anne*; April 10, 1710, [www.avalon.law.yale.edu/18th_century/anne_1710.asp](http://www.avalon.law.yale.edu/18th_century/anne_1710.asp).
+<a name="wortley"></a>7. Wortley, Edward. "Statute of Anne." *The Avalon Project: The Statute of Anne*; April 10, 1710, [avalon.law.yale.edu/18th_century/anne_1710.asp](http://avalon.law.yale.edu/18th_century/anne_1710.asp).
 
 <a name="felten"></a>8. Felten, Edward W. "DRM and Public Policy." *Communications of the ACM*, vol. 48, no. 7, July 2005, p. 112. EBSCOhost, doi:10.1145/1070838.1070871.
 
