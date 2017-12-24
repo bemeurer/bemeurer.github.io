@@ -20,7 +20,7 @@ I did some work on [factorial algorithms][fact] a while back, and I'm working
 on [cappy][cappy], [an implementation of Euler's Totient][euler], and an
 [Ackermann calculator][ack]. I maintain a [beautifier for Bash][beautysh], and
 I'm working on my own Rust-based OS called [Daedalos][daedalos]. I interned at
-[Async][async] for a while, and I'm now working for [Banco Maré][mare].
+[Async][async] for a while, and I'm now working for [Banco Maré][mare]. You can always contact me at [meurerbernardo@gmail.com](mailto://meurerbernardo@gmail.com).
 
 I'm an advocate for Open Source software and freedom of speech. Here are, for
 curiosity's sake, some other things I enjoy:

@@ -19,6 +19,7 @@ PygmentsStyle = "monokai"
     github = "bemeurer"
     linkedin = "meurerbernardo"
     twitter = "lovesegfault"
+    email = "meurerbernardo@gmail.com"
 
 [params]
 	tagline = "Ideas expressed here are nobody's."
