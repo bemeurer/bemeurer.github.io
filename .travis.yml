@@ -1,6 +1,6 @@
 language: go
 go:
-  - stable
+  - 1.9.2
 git:
   depth: 1
 branches:
