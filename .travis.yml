@@ -17,7 +17,7 @@ env:
 before_install:
   - openssl aes-256-cbc -K $encrypted_61d8d5d18380_key -iv $encrypted_61d8d5d18380_iv -in travis.enc -out travis -d
 install:
-  - go get github.com/spf13/hugo
+  - go get github.com/gohugoio/hugo
 script:
   - git submodule init
   - hugo
