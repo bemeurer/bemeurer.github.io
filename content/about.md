@@ -20,7 +20,7 @@ I did some work on [factorial algorithms][fact] a while back, and I'm working
 on [cappy][cappy], [an implementation of Euler's Totient][euler], and an
 [Ackermann calculator][ack]. I maintain a [beautifier for Bash][beautysh], and
 I'm working on my own Rust-based OS called [Daedalos][daedalos]. I interned at
-[Async][async] for a while, and I'm now working for [Banco Maré][mare]. You can always contact me at [meurerbernardo@gmail.com](mailto://meurerbernardo@gmail.com).
+[Async][async] for a while, and I'm now working for [Standard Cognition][standard]. You can always contact me at [meurerbernardo@gmail.com](mailto://meurerbernardo@gmail.com).
 
 I'm an advocate for Open Source software and freedom of speech. Here are, for
 curiosity's sake, some other things I enjoy:
@@ -40,9 +40,10 @@ curiosity's sake, some other things I enjoy:
   * The Great Beauty
 
 * Books
+  * The Tale of The Unknown Island - José Saramago
   * The Stranger - Albert Camus
   * The World As Will and Representation - Arthur Schopenhauer
-  * In Defense of Lost Causes - Slavoj Zizek
+  * In Defense of Lost Causes - Slavoj Žižek
   * Buddenbrooks - Thoman Mann
 
 [fact]: http://www.luschny.de/math/factorial/SwingIntro.pdf
@@ -52,4 +53,4 @@ curiosity's sake, some other things I enjoy:
 [beautysh]: https://github.com/bemeurer/beautysh
 [daedalos]: https://github.com/bemeurer/daedalos
 [async]: http://www.stoq.com.br/
-[mare]: https://www.bancomare.com.br/
+[standard]: http://standard.ai/
