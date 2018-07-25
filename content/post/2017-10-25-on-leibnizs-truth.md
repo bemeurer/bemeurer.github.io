@@ -16,7 +16,7 @@ share: true
 markup: "mmark"
 ---
 
-We begin by defining a statement as being any sentence of form
+Let a *statement* be any sentence of form
 
 \\[
 \mathcal S + \phi
@@ -42,7 +42,7 @@ Let us now consider for a moment the following statement:
 \text{Washington crossed the Delaware}
 \\]
 
-Unlike the identity statement we saw above, here the subject-concept is *not* the same as the predicate-concept, and most importantly there is no clear containment of the latter into the former, which is why we call it a *Secondary Truth*. One can, for example, very easily imagine Washington *not* having crossed the Delaware, while on the other hand attempting to imagine \\(X\text{ is not }X\\) is fruitless at best (and maddening at worst). In a sense, it seems that while all primary truths are "self sufficient", and depend on no external factors to be true, the same is not the case for secondary truths, they seem to depend on large class of externalites. For Washing to have crossed the Delaware, for example, a number of dependencies must have been satisfied, namely, Washington must exist, and so must the Delaware, and the Earth on which they act, and so on. It seems to us that the statement could very well be false, without any dooming consequences, once again, it does not take a lot of mental gymnastics to imagine a universe where Washington simply did not cross the Delaware. The solution to this problem lies in the fact that all truths are what we call *analytic*, meaning they can be reduced to primary truths, which in turn are trivially true.
+Unlike the identity statement we saw above, here the subject-concept is *not* the same as the predicate-concept, and most importantly there is no clear containment of the latter into the former, which is why we call it a *Secondary Truth*. One can, for example, very easily imagine Washington *not* having crossed the Delaware, while on the other hand attempting to imagine \\(X\text{ is not }X\\) is fruitless at best (and maddening at worst). In a sense, it seems that while all primary truths are "self sufficient", and depend on no external factors to be true, the same is not the case for secondary truths, they seem to depend on large class of externalites. For Washington to have crossed the Delaware, for example, a number of dependencies must have been satisfied, namely, Washington must exist, and so must the Delaware, and the Earth on which they act, and so on. It seems to us that the statement could very well be false, without any dooming consequences, once again, it does not take a lot of mental gymnastics to imagine a universe where Washington simply did not cross the Delaware. The solution to this problem lies in the fact that all truths are what we call *analytic*, meaning they can be reduced to primary truths, which in turn are trivially true.
 
 Let us begin by acknowledging Washington as being more than an individual, we are referring here to a *concept* of Washington. This concept, we must note, is not atomic, and can be divided into a set of elements that compose it, which is to say we have
 
@@ -68,7 +68,7 @@ Let us now suppose that Washington did *not* cross the Delaware. This would mean
 (\forall \alpha_i\in \mathcal C(W)\setminus\\{\alpha_k\\})(\exists\beta_j\in\mathcal C(W'))\text{ s.t. }\alpha_i = \beta_j
 \\]
 
-In other words, we have a concept \\(\mathcal C(W')\\) that contains all elements of \\(\mathcal C(W)\\) *except* \\(\alpha_k\\). This, however, implies that while \\(\mathcal C(W') \subset \mathcal C(W)\\), the converse isn't true, and \\(\mathcal C(W) \not\subset \mathcal C(W')\\). Since we had previously defined that the only for way two subject-concepts to be the same, namely \\(\mathcal C(\mathcal S) = \mathcal C(\mathcal S') \iff \mathcal S = \mathcal S'\\), is for them to mutually contain each other, we conclude that \\(\mathcal C(W) \neq \mathcal C(W')\\), and most importantly
+In other words, we have a concept \\(\mathcal C(W')\\) that contains all elements of \\(\mathcal C(W)\\) *except* \\(\alpha_k\\). This, however, implies that while \\(\mathcal C(W') \subset \mathcal C(W)\\), the converse isn't true, and \\(\mathcal C(W) \not\subset \mathcal C(W')\\). Since we had previously defined that the only way for two subject-concepts to be the same, namely \\(\mathcal C(\mathcal S) = \mathcal C(\mathcal S') \iff \mathcal S = \mathcal S'\\), is for them to mutually contain each other, we conclude that \\(\mathcal C(W) \neq \mathcal C(W')\\), and most importantly
 
 \\[
 W \neq W'
