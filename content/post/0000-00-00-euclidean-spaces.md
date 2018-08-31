@@ -79,3 +79,24 @@ For all \\(x, y \in V\\), we define the **distance from \\(x\\) to \\(y\\)** as
 
 For all vectors \\(x, y \in V\\), we have
 \\[ \lVert x + y\rVert^2 + \lVert x - y\rVert^2 = 2(\lVert x\rVert^2 + \lVert y\rVert^2) \\]
+
+## Example
+
+An inner product in \\(\mathbb M_{2\times 2}(\mathbb R)\\).
+
+For all matrices \\(A, B \in \mathbb M_{2\times 2}(\mathbb R)\\) we define
+\\[ \begin{aligned} \langle A, B\rangle &= tr(B^T A) \\\\ &= \sum^2_{i, j=1}{a_{ij}b_{ij}} \end{aligned}\\ \\]
+with \\(A = [a_{ij}]\\) and \\(B = [b_{ij}]\\)[^1]. Note that, letting \\(B_c\\) be the canonical basis of \\( \mathbb{M}_{2\times 2}(\mathbb{R}) \\),
+
+$$ \langle A, B \rangle_{\mathbb M_{2\times 2}(\mathbb R)} = \langle (A)_{B_c}, (B)_{B_c}\rangle_{\mathbb R^4}$$
+
+meaning that the inner product defined above respects the isomorphism \\( A \mapsto (A)_{B_c}\\) between \\(\mathbb M_{2\times 2}(\mathbb R)\\) and \\(\mathbb R^4\\)
+
+## Proof of the triangle inequality
+
+\\[ \begin{aligned} \lVert x + y\rVert^2 &= \langle x+y, x+y\rangle \\\\ &= \langle x, x\rangle + 2\langle x, y\rangle + \langle y, y\rangle \\\\ &= \lVert x\rVert^2 + 2\langle x, y\rangle + \lVert y\rVert^2 \qquad (\text{Inner product in terms of the norm})\\\\ &\leq \lVert x\rVert^2 + 2\lvert\langle x, y\rangle\rvert + \lVert y\rVert^2 \\\\ &\leq \lVert x\rVert^2 + 2\lVert x\rVert\lVert y\rVert + \lVert y\rVert^2 \qquad (\text{Cauchy-Schwartz inequality}) \\\\ &=(\lVert x\rVert + \lVert y\rVert)^2 \end{aligned}\\ \\]
+
+Where
+\\[ \lvert x + y\rVert \leq \lVert x\rVert + \lVert y\rVert \qquad_\blacksquare\\]
+
+[^1]: Note that \\(tr(B^T A) = tr(A^T B)\\), which allows us to define \\[ \langle A, B\rangle = tr(A^T B) \\]
