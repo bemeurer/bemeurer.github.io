@@ -40,20 +40,20 @@ A real linear space \\(V\\) armed with an inner product is called an (real)
 
 1. Usual inner product in \\(\mathbb R^n\\)
     * \\(\mathbb R^2\\) \\[ \begin{aligned} \langle x, y\rangle &= \lVert
-      x\rVert\lVert y\rVert \cos\theta \\\\ &= x_1 y_1 + x_2 y_2 \quad\text{in
+      x\rVert\lVert y\rVert \cos\theta \\\\ &= x\_1 y\_1 + x\_2 y\_2 \quad\text{in
       }\mathbb R^2 \end{aligned}\\ \\] where \\(\theta\in[0, \pi]\\) is the
       angle between the vectors \\(x\\) and \\(y\\). Note that the norm of the
       vector \\(x\\) satisfies \\[ \lVert x\rVert^2 = \langle x, x\rangle \\]
-    * \\(\mathbb R^n\\) \\[ \begin{aligned} \langle x, y\rangle &= x_1 y_1 + x_2
-      y_2 + \cdots + x_n y_n \\\\ \langle x, y\rangle &= y^Tx = x^Ty
+    * \\(\mathbb R^n\\) \\[ \begin{aligned} \langle x, y\rangle &= x\_1 y\_1 + x\_2
+      y\_2 + \cdots + x\_n y\_n \\\\ \langle x, y\rangle &= y^Tx = x^Ty
       \end{aligned}\\ \\]
 2. Another inner product in \\(\mathbb R^2\\)
     * **Exercise.** Determine the circumference \\(C\\) of radius \\(1\\) and
-      centered at \\((0, 0)\\) \\[ C = \{(x_1, x_2)\in\mathbb R^2\colon
-      \lVert(x_1, x_2)\rVert = 1\} \\] considering
+      centered at \\((0, 0)\\) \\[ C = \{(x\_1, x\_2)\in\mathbb R^2\colon
+      \lVert(x\_1, x\_2)\rVert = 1\} \\] considering
         1. The usual inner product
-        2. The inner product \\[\langle (x_1, x_2), (y_1, y_2) \rangle =
-           \frac{1}{9} x_1y_1 + \frac{1}{4} x_2y_2 \\]
+        2. The inner product \\[\langle (x\_1, x\_2), (y\_1, y\_2) \rangle =
+           \frac{1}{9} x\_1y\_1 + \frac{1}{4} x\_2y_2 \\]
 
 ### Norm and the triangle inequality
 
@@ -94,19 +94,17 @@ y\rVert^2 = 2(\lVert x\rVert^2 + \lVert y\rVert^2) \\]
 
 ### Example
 
-An inner product in \\(\mathbb M_{2\times 2}(\mathbb R)\\).
+An inner product in \\(\mathbb M\_{2\times 2}(\mathbb R)\\).
 
-For all matrices \\(A, B \in \mathbb M_{2\times 2}(\mathbb R)\\) we define \\[
-\begin{aligned} \langle A, B\rangle &= tr(B^T A) \\\\ &= \sum^2_{i,
-j=1}{a_{ij}b_{ij}} \end{aligned}\\] with \\(A = [a_{ij}]\\) and \\(B =
-[b_{ij}]\\)[^1]. Note that, letting \\(B_c\\) be the canonical basis of
-\\(\mathbb M_{2\times 2}(\mathbb R)\\),
+For all matrices \\(A, B \in \mathbb M\_{2\times 2}(\mathbb R)\\) we define \\[
+\begin{aligned} \langle A, B\rangle &= tr(B^T A) \\\\ &= \sum^2\_{i,
+j=1}{a\_{ij}b\_{ij}} \end{aligned}\\] with \\(A = [a\_{ij}]\\) and \\(B =
+[b\_{ij}]\\)[^1]. Note that, letting \\(B\_c\\) be the canonical basis of \\(\mathbb M\_{2\times 2}(\mathbb R)\\),
 
-$$ \langle A, B \rangle_{\mathbb M_{2\times 2}(\mathbb R)} = \langle (A)_{B_c},
-(B)_{B_c}\rangle_{\mathbb R^4}$$
+\\[\langle A, B \rangle\_{\mathbb M\_{2\times 2}(\mathbb R)} = \langle (A)\_{B\_c}, (B)\_{B\_c}\rangle\_{\mathbb R^4}\\]
 
 meaning that the inner product defined above respects the isomorphism \\( A
-\mapsto (A)_{B_c}\\) between \\(\mathbb M_{2\times 2}(\mathbb R)\\) and
+\mapsto (A)\_{B\_c}\\) between \\( \mathbb{M}\_{2 \times 2}(\mathbb R) \\) and
 \\(\mathbb R^4\\)
 
 ### Proof of the triangle inequality
@@ -126,30 +124,30 @@ Where \\[ \lVert x + y\rVert \leq \lVert x\rVert + \lVert y\rVert
 
 ## Gram Matrix
 
-Let \\(V\\) be a real euclidean space, and \\(B = (b_1, b_2, \ldots, b_n)\\) a
-basis of \\(V\\). With \\(x, y \in V\\) such that \\(x_B = (\alpha_1, \alpha_2,
-\ldots, \alpha_n)\\) and \\(y_B = \beta_1, \beta_2, \ldots, \beta_n\\), we have
-\\[ \begin{aligned} \langle x, y\rangle &= \langle\alpha_1 b_1 + \alpha_2 b_2 + \cdots + \alpha_n b_n, \beta_1 b_1 + \beta_2 b_2 + \cdots + \beta_n b_n\rangle
-\\\\ &= \begin{bmatrix}\beta_1 & \beta_2 & \ldots & \beta_n\end{bmatrix} \underbrace{\begin{bmatrix}\langle b_1, b_1\rangle & \langle b_2, b_1\rangle &\ldots & \langle b_n, b_1\rangle
-\\\\ \langle b_1, b_2\rangle & \langle b_2, b_2\rangle &\ldots & \langle b_n, b_2\rangle
+Let \\(V\\) be a real euclidean space, and \\(B = (b\_1, b\_2, \ldots, b\_n)\\) a
+basis of \\(V\\). With \\(x, y \in V\\) such that \\(x\_B = (\alpha\_1, \alpha\_2,
+\ldots, \alpha\_n)\\) and \\(y\_B = \beta\_1, \beta\_2, \ldots, \beta\_n\\), we have
+\\[ \begin{aligned} \langle x, y\rangle &= \langle\alpha\_1 b\_1 + \alpha\_2 b\_2 + \cdots + \alpha\_n b\_n, \beta\_1 b\_1 + \beta\_2 b\_2 + \cdots + \beta\_n b\_n\rangle
+\\\\ &= \begin{bmatrix}\beta\_1 & \beta\_2 & \ldots & \beta\_n\end{bmatrix} \underbrace{\begin{bmatrix}\langle b\_1, b\_1\rangle & \langle b\_2, b\_1\rangle &\ldots & \langle b\_n, b\_1\rangle
+\\\\ \langle b\_1, b\_2\rangle & \langle b\_2, b\_2\rangle &\ldots & \langle b\_n, b\_2\rangle
 \\\\ \vdots
-\\\\ \langle b_1, b_n\rangle & \langle b_2, b_n\rangle &\ldots & \langle b_n, b_n\rangle
-\\\\ \end{bmatrix}}_G \begin{bmatrix}\alpha_1
-\\\\ \alpha_2
+\\\\ \langle b\_1, b\_n\rangle & \langle b\_2, b\_n\rangle &\ldots & \langle b\_n, b\_n\rangle
+\\\\ \end{bmatrix}}\_G \begin{bmatrix}\alpha\_1
+\\\\ \alpha\_2
 \\\\ \vdots
-\\\\ \alpha_n\end{bmatrix} \end{aligned}\\ \\]
+\\\\ \alpha\_n\end{bmatrix} \end{aligned}\\ \\]
 
 Therefore, given an inner product in \\(V\\) and a basis \\(B\\), it is possible
-to determine a matrix \\(G\\) such that \\[\langle x,y\rangle = y_B^T Gx_B\\]
+to determine a matrix \\(G\\) such that \\[\langle x,y\rangle = y\_B^T Gx\_B\\]
 
-This matrix \\(G = [g_{ij}]\\), where for all \\(i, j = 1, \ldots, n\\) we have
-\\(g_{ij} = \langle b_j, b_i \rangle\\) is called the **Gram matrix** of the set
-of vectors \\(\\{b_1, b_2, \ldots, b_n\\}\\).
+This matrix \\(G = [g\_{ij}]\\), where for all \\(i, j = 1, \ldots, n\\) we have
+\\(g\_{ij} = \langle b\_j, b\_i \rangle\\) is called the **Gram matrix** of the set
+of vectors \\(\\{b\_1, b\_2, \ldots, b\_n\\}\\).
 
 Note that:
 
 * \\(G\\) is a symmetric (\\(G = G^T\\)) \\(n\times n\\) real matrix.
-* For all non-null vectors \\(x\in V\\) \\[x_B^T Gx_b > 0\\]
+* For all non-null vectors \\(x\in V\\) \\[x\_B^T Gx\_b > 0\\]
 
 A square real matrix \\(A\\) of order \\(k\\) is said to be **positive
 definite**(@) if, for all non-null vectors \\(x\in\mathbb R^n\\), \\(x^T Ax >
@@ -168,7 +166,7 @@ following statements are equivalent._
 ### Exercise
 
 Consider that \\(\mathbb R^n\\) is armed with the canonical basis
-\\(\Epsilon_n\\). What is the Gram matrix \\(G\\) that corresponds to the usual
+\\(\mathcal{e}\_n\\). What is the Gram matrix \\(G\\) that corresponds to the usual
 inner product in \\(\mathbb R^n\\)? Also, which Gram matrix corresponds to the
 inner product in item (2) of the previous exercise?
 
@@ -195,14 +193,14 @@ Much like with real euclidean spaces, we define the **norm** of a vector as
 \\[\lVert x\rVert = \sqrt{\langle x, x\rangle}\\] and the **distance from
 \\(x\\) to \\(y\\) as \\[d(x, y) = \lVert x - y\rVert\\]
 
-**Example.** Usual inner product in \\(\mathbb C^n\\). Let \\(x = (x_1, x_2,
-\ldots, x_n)\\) and \\(y_1, y_2, \ldots, y_n\\) be vectors in \\(\mathbb C^n\\),
-we define \\[\langle x, y\rangle = x_1\overline{y}_1 + x_2\overline{y}_2 +
-\cdots + x_n\overline{y}_n\\] and therefore \\[\langle x, y\rangle =
+**Example.** Usual inner product in \\(\mathbb C^n\\). Let \\(x = (x\_1, x\_2,
+\ldots, x\_n)\\) and \\(y\_1, y\_2, \ldots, y\_n\\) be vectors in \\(\mathbb C^n\\),
+we define \\[\langle x, y\rangle = x\_1\overline{y}\_1 + x\_2\overline{y}\_2 +
+\cdots + x\_n\overline{y}\_n\\] and therefore \\[\langle x, y\rangle =
 \overline{y}^T x\\] With regards to the norm we have \\[\lvert x\rVert^2 =
-\langle x, x\rangle = x_1\overline{x}_1 + x_2\overline{x}_2 + \cdots +
-x_n\overline{x}_n\\] or \\[\lVert x\rVert = \sqrt{\lVert x, x\rVert} =
-\sqrt{\lvert x_1\rvert^2 + \lvert x_2\rvert^2 + \cdots + \lvert x_n\rvert^2}\\]
+\langle x, x\rangle = x\_1\overline{x}\_1 + x\_2\overline{x}\_2 + \cdots +
+x\_n\overline{x}\_n\\] or \\[\lVert x\rVert = \sqrt{\lVert x, x\rVert} =
+\sqrt{\lvert x\_1\rvert^2 + \lvert x\_2\rvert^2 + \cdots + \lvert x\_n\rvert^2}\\]
 
 All the remaining results that were presented regarding real euclidean spaces
 are also true for complex euclidean spaces (Cauchy-Schwartz, triangle
@@ -210,33 +208,33 @@ inequality, parallelogram law, ...).
 
 ### Gram Matrix
 
-Let \\(V\\) be a complex euclidean space, and let \\(B = (b_1, b_2, \ldots,
-b_n)\\) be a basis of \\(V\\). With \\(x, y \in V\\) such that \\(x_B=(\alpha_1,
-\alpha_2, \dots, \alpha_n)\\) and \\(y_B=(\beta_1, \beta_2, \dots, \beta_n)\\),
-we have 
-\\[ \begin{aligned} \langle x, y\rangle &= \langle\alpha_1 b_1 +
-\alpha_2 b_2 + \cdots + \alpha_n b_n, \beta_1 b_1 + \beta_2 b_2 + \cdots +
-\beta_n b_n\rangle
-\\\\ &= \begin{bmatrix}\overline{\beta}_1 & \overline{\beta}_2 & \ldots & \overline{\beta}_n\end{bmatrix} \underbrace{\begin{bmatrix}\langle b_1, b_1\rangle & \langle b_2, b_1\rangle &\ldots & \langle b_n, b_1\rangle
-\\\\ \langle b_1, b_2\rangle & \langle b_2, b_2\rangle &\ldots & \langle b_n, b_2\rangle
+Let \\(V\\) be a complex euclidean space, and let \\(B = (b\_1, b\_2, \ldots,
+b\_n)\\) be a basis of \\(V\\). With \\(x, y \in V\\) such that \\(x\_B=(\alpha\_1,
+\alpha\_2, \dots, \alpha\_n)\\) and \\(y\_B=(\beta\_1, \beta\_2, \dots, \beta\_n)\\),
+we have
+\\[ \begin{aligned} \langle x, y\rangle &= \langle\alpha\_1 b\_1 +
+\alpha\_2 b\_2 + \cdots + \alpha\_n b\_n, \beta\_1 b\_1 + \beta\_2 b\_2 + \cdots +
+\beta\_n b\_n\rangle
+\\\\ &= \begin{bmatrix}\overline{\beta}\_1 & \overline{\beta}\_2 & \ldots & \overline{\beta}\_n\end{bmatrix} \underbrace{\begin{bmatrix}\langle b\_1, b_1\rangle & \langle b\_2, b\_1\rangle &\ldots & \langle b\_n, b\_1\rangle
+\\\\ \langle b\_1, b\_2\rangle & \langle b\_2, b\_2\rangle &\ldots & \langle b\_n, b\_2\rangle
 \\\\ \vdots
-\\\\ \langle b_1, b_n\rangle & \langle b_2, b_n\rangle &\ldots & \langle b_n, b_n\rangle
-\\\\ \end{bmatrix}}_G \begin{bmatrix}\alpha_1
-\\\\ \alpha_2
+\\\\ \langle b\_1, b\_n\rangle & \langle b\_2, b\_n\rangle &\ldots & \langle b\_n, b\_n\rangle
+\\\\ \end{bmatrix}}\_G \begin{bmatrix}\alpha\_1
+\\\\ \alpha\_2
 \\\\ \vdots
-\\\\ \alpha_n\end{bmatrix} \end{aligned}\\ \\]
+\\\\ \alpha\_n\end{bmatrix} \end{aligned}\\ \\]
 
 Therefore, given an inner product in \\(V\\) and a basis \\(B\\), it is possible to determine a matrix \\(G\\) such that 
-\\[\langle x,y\rangle = \overline{y}_B^T Gx_B\\]
+\\[\langle x,y\rangle = \overline{y}\_B^T Gx\_B\\]
 
-This matrix \\(G = [g_{ij}]\\), where for all \\(i, j = 1, \ldots, n\\) we have \\(g_{ij} = \langle
-b_j, b_i \rangle\\) is called the **Gram matrix** of the set of vectors \\(\\{b_1, b_2, \ldots, b_n\\}\\).
+This matrix \\(G = [g\_{ij}]\\), where for all \\(i, j = 1, \ldots, n\\) we have \\(g\_{ij} = \langle
+b\_j, b\_i \rangle\\) is called the **Gram matrix** of the set of vectors \\(\\{b\_1, b\_2, \ldots, b\_n\\}\\).
 
 Note that:
 
 * \\(G\\) is an \\(n\times n\\) complex matrix such that (\\(G =
   \overline{G}^T\\)).
-* For all non-null vectors \\(x\in V\\) \\[\overline{x}_B^T Gx_b > 0\\]
+* For all non-null vectors \\(x\in V\\) \\[\overline{x}\_B^T Gx\_b > 0\\]
 
 A complex square matrix \\(A\\) of order \\(k\\) is said to be **hermitian** if
 \\(A = \overline{A}^T\\). Note that the spectrum \\(\sigma(A)\\) of a hermitian
@@ -272,4 +270,150 @@ _Proof._ Exercise
 
 ## Orthogonal complement
 
+Let \\(X\\) be a subspace of an euclidean space \\(V\\). We say that \\(u\\) is **orthogonal to** \\(X\\) if \\(u\\) is orthogonal to all elements of \\(X\\). We write this \\(u \perp W\\).
+
+For example, \\((1, 1, 0)\\) is orthogonal to the plane \\(S\\) of the previous exercise.
+
+Let \\(W\\) be a subspace of \\(V\\). The **orthogonal complement** of \\(W\\), written \\(W^\perp\\), is defined as
+\\[W^\perp = \\{u\in V\colon u\perp W\\}\\]
+
+**Exercise.** Determine the orthogonal complement of the line generated by the vector \\((1, 1, 0)\\).
+
+**Proposition 3.** \\(W^\perp\\) is a subspace of V.
+
+**Proposition 4.** *Let \\(W\\) be a linear subspace of an euclidean space \\(V\\) and let \\(\\{u\_1, u\_2, \ldots, u\_k\\}\\) be a generator set of \\(W\\). Then, \\(e\in V\\) is orthogonal to \\(W\\) iff it is orthogonal to \\(\\{u\_1, u\_2, \ldots, u\_k\\}\\).*
+
+**Corollary 1.** *In the conditions of the previous proposition, \\(u\in V\\) is orthogonal to \\(W\\) iff it is orthogonal to a basis of \\(W\\).*
+
+**Exercise.** Determine the orthogonal complement of the plane \\(W\in\mathbb R^3\\) with the cartesian equation \\(x=y\\).
+
+**Solution.** \\(W^\perp\\) is the line described by the equations
+\\[\begin{cases}x = -y \\\\ z = 0\end{cases}\qquad\qquad\textbf{cartesian equations}\\]
+or
+\\[(x, y, z) = t(-1, 1, 0)\qquad(t\in\mathbb R)\qquad\qquad\textbf{vector equation}\\]
+or
+\\[\begin{cases}x = -t \\\\ y = t \\\\ z = 0\end{cases}\qquad(t\in\mathbb R)\qquad\qquad\textbf{parametric equations}\\]
+
+**Proposition 5.** *Let \\(W\\) be a subspace of an euclidean space \\(V\\).*
+
+1. \\(W\cap W^\perp = 0\\)
+2. \\(W^{\perp\perp} = W\\)
+
+A subset \\(X\\) of an euclidean space \\(V\\) is said to be an **orthogonal set** if, for all \\(x, y\in X\\) with \\(x \neq y\\) we have \\(x \perp y\\).
+
+**Question. ** Let \\(X\\) be an orthogonal set not containing the null vector.
+
+* If \\(X\subseteq \mathbb R^2\\), how many vectors does \\(X\\) have at most?
+* If \\(X\subseteq \mathbb R^3\\), how many vectors does \\(X\\) have at most?
+
+**Proposition 6.** *Let \\(V\\) be an euclidean space. Let \\(X = \\{v\_1, v\_2, \ldots, v\_k\\}\\) be an orthogonal set such that \\(v\_j\neq 0\\) for all \\(j\in[1,\ldots,k]\\). Then \\(X\\) is linearly independent.*
+
+*Proof.*
+\\[\langle\alpha\_1 v\_1 + \alpha\_2 v\_2 + \cdots + \alpha\_k v\_k, v\_j\rangle = \alpha\_j^2 \lVert v\_j \rVert^2 = 0 \implies \alpha\_j = 0\\]
+
+**Corollary 2.** *Let \\(V\\) be an euclidean space of dimension \\(n\\), and let \\(X = \\{v\_1, v\_2, \ldots, v\_k\\}\\) be an orthogonal set such that \\(v\_j \neq 0\\) for all \\(j\in[1, k]\\). Then \\(k \leq n\\).*
+
+**Corollary 3.** *Let \\(V\\) be an euclidean space of dimension \\(n\\), and let \\(X = \\{v\_1, v\_2, \ldots, v\_n\\}\\) be an orthogonal set such that \\(v\_j \neq 0\\) for all \\(j\in[1, n]\\). Then \\(X\\) is a basis of \\(V\\).*
+
+### Orthogonal complements of the subspaces of a real matrix
+
+**Proposition 7.** *Let \\(A\\) be a \\(n \times k\\) matrix with real elements. Then, considering in \\(\mathbb R^n\\) and \\(\mathbb R^k\\) the usual inner products we have:*
+
+1. \\(L(A)^\perp = N(A)\\)
+2. \\(N(A)^\perp = L(A)\\)
+3. \\(C(A)^\perp = N(A^T)\\)
+4. \\(N( A^T )^\perp = C(A)\\)
+
+(@) I don't know whether these function names are right in english. IIRC, from my portuguse notes, L(A) is the space of the lines of a matrix, C(A) is the space of the columns, and N(A) is the kernel.
+
+---
+
+## Orthogonal Projections
+
+### Orthogonal bases and orthonormal bases
+
+A basis \\(\mathcal{B}\\) of an euclidean space \\(V\\) is said to be:
+
+* An **orthogonal basis** if it is an orthogonal set;
+* An **orthonormal basis** if it is an orthogonal set, and all it's elements have unitary norm(@).
+
+Let \\(x\in V\\) some vector, and let
+\\[(x)\_\mathcal{B} = (\alpha\_1, \alpha\_2, \ldots, \alpha\_n)\\]
+be the coordinate vector of \\(x\\) in the basis \\(\mathcal B\\).
+
+### Coordinate vector in an orthogonal basis \\(\mathcal B\\)
+
+\\[\alpha\_j = \frac{\langle x, b\_j\rangle}{\lVert b\_j\rVert^2}\\]
+
+### Coortinate vector in an orthonormal basis \\(\mathcal B\\)
+
+\\[ \alpha\_j = \langle x, b\_j\rangle\\]
+
+**Question.** Will there always be an orthogonal and/or an orthonormal basis?
+
+**Answer.** Yes -> Orthogonalization through Gram-Schmidt method.
+
+### Orthogonal projections
+
+We define the **orthogonal projection of \\(x\\) over \\(b\_j\\)** as the vector
+\\[\begin{aligned}\text{proj}\_{b\_j} x &= \frac{\langle x, b\_j \rangle}{\lVert b\_j \rVert^2}b\_j \\\\ &= \alpha\_j b\_j \end{aligned}\\]
+
+In a more general sense, given two vectors \\(u\\) and \\(v\\) from an euclidean space \\(V\\), with \\(v\neq 0\\) the **orthogonal projection of \\(u\\) over \\(v\\)** is the vector
+\\[\text{proj}\_v u = \frac{\langle u, v \rangle}{\lVert v \rVert}^2 v\\]
+
+**Example.** Considering that \\(\mathbb R^2\\) is armed with the canonical basis \\(\mathcal{E}\_2 = (e\_1, e\_2)\\), any vector \\(u\in\mathbb R^2\\) can be expressed as a sum
+\\[\begin{aligned}u &= \text{proj}\_{ e\_1} u + \text{proj}\_{ e\_2} u \\\\ &= u\_W + u\_{W^\perp}\end{aligned}\\]
+Where \\(W\\) is the \\(x\\) axis.
+
+**Theorem 5.** _Let \\(W\\) be a linear subspace of some euclidean space \\(V\\). All vectors \\(u\\) of \\(V\\) can be decomposed **uniquely** as_
+\\[u = u\_W + u\_{W^\perp}\\]
+_where \\(u\in W\\) and \\(u\_{W^\perp}\in E^\perp\\)._
+
+In these conditions, we say that \\(V\\) is the **direct sum** (@) of \\(W\\) with \\(W^\perp\\) and write
+\\[V = W \oplus W^\perp\\]
+Which, by definition, is to say:
+
+* \\(V = W + W^\perp\\)
+* \\(W \cap W^\perp = \\{0\\}\\)
+
+We define the **orthogonal projection of \\(u\\) over \\(W\\)** as being the vector \\(u\_W\\).
+
+If we consider that \\(W\\) is armed with the ordered __orthogonal__ basis \\(\mathcal{B} = (b\_1, b\_2, \ldots, b\_k)\\), we have
+\\[\text{proj}\_W u = \text{proj}\_{b\_1} u + \text{proj}\_{b\_2} u + \cdots + \text{proj}\_{b\_k} u\\]
+
+**Question.** How can we compute the vector \\(u\_{W^\perp}\\) or, in other words, \\(\text{proj}\_{W^\perp} u\\)?
+
+**Answer.**
+\\[\text{proj}\_{W^\perp} u = u - u\_W\\]
+or, if we consider that \\(W^\perp\\) is armed with the ordered orthogonal basis \\(\mathcal{B}' = (b\_1', b\_2', \ldots, b\_l')\\), we have
+\\[\text{proj}\_{W^\perp} u = \text{proj}\_{b'\_1} u + \text{proj}\_{b'\_2} u + \cdots + \text{proj}\_{b'\_l} u\\]
+
+**Question.** What is the number \\(l\\) of vectors in the basis of \\(\mathcal{B}'\\)?
+
+**Answer.** Assuming that \\(V\\) has dimension \\(n\\), we have \\(l = n - k\\) since
+
+1. \\(\mathcal{B} \cup \mathcal{B}'\\) is linearly independent.[^2]
+2. Theorem 5 guarantees that \\(\mathcal{B}\cup\mathcal{B}'\\) generates \\(V\\).
+
+Therefore \\(\mathcal{B} \cup \mathcal{B}'\\) is a basis of \\(V\\) and the solution becomes trivial.
+
+---
+
+## Distance from a point to a subspace & \\(k\\)-plane cartesian equations
+
+### Optimal approximation
+
+Given \\(u\in V\\) and some subspace \\(W\\) of \\(V\\) we hope to answer the following question:
+
+> Which element \\(x\\) of \\(W\\) is closest to \\(u\\)?
+
+\\[
+\begin{aligned}
+d(u, x)^2 = \lVert u - x\rVert^2 &= \lVert(u - \text{proj}\_W u) + (\text{proj}_W u - x)\rVert^2 \\\\ &= \lVert u - \text{proj}\_W u\rVert^2 + \lVert \text{proj}\_W u - x\rVert^2 \qquad \text{(Pythagoras)}\\\\ &= \lVert \text{proj}\_{W^\perp} u\rVert^2 + \lVert\text{proj}\_W u - x\rVert^2\end{aligned}\\]
+
+Whereby we conclude that
+
+> The optimal approximation coincides with \\(\text{proj}_W u\\)
+
 [^1]: Note that \\(tr(B^T A) = tr(A^T B)\\), which allows us to define \\[\langle A, B\rangle = tr(A^T B) \\]
+[^2]: Because it is orthogonal.
