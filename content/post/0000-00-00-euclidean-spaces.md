@@ -1,7 +1,7 @@
 ---
 title: "Euclidean Spaces"
 date: 2018-08-30T00:00:00Z
-draft: false 
+draft: true
 tags:
   - notes
   - linear
@@ -9,7 +9,7 @@ tags:
   - mathematics
 categories:
   - notes
-comments: true 
+comments: true
 markup: "mmark"
 ---
 ## Real euclidean spaces
@@ -103,7 +103,7 @@ j=1}{a\_{ij}b\_{ij}} \end{aligned}\\] with \\(A = [a\_{ij}]\\) and \\(B =
 
 \\[\langle A, B \rangle\_{\mathbb M\_{2\times 2}(\mathbb R)} = \langle (A)\_{B\_c}, (B)\_{B\_c}\rangle\_{\mathbb R^4}\\]
 
-meaning that the inner product defined above respects the isomorphism \\( A
+Meaning that the inner product defined above respects the isomorphism \\( A
 \mapsto (A)\_{B\_c}\\) between \\( \mathbb{M}\_{2 \times 2}(\mathbb R) \\) and
 \\(\mathbb R^4\\)
 
@@ -224,7 +224,7 @@ we have
 \\\\ \vdots
 \\\\ \alpha\_n\end{bmatrix} \end{aligned}\\ \\]
 
-Therefore, given an inner product in \\(V\\) and a basis \\(B\\), it is possible to determine a matrix \\(G\\) such that 
+Therefore, given an inner product in \\(V\\) and a basis \\(B\\), it is possible to determine a matrix \\(G\\) such that
 \\[\langle x,y\rangle = \overline{y}\_B^T Gx\_B\\]
 
 This matrix \\(G = [g\_{ij}]\\), where for all \\(i, j = 1, \ldots, n\\) we have \\(g\_{ij} = \langle
@@ -324,7 +324,7 @@ A subset \\(X\\) of an euclidean space \\(V\\) is said to be an **orthogonal set
 3. \\(C(A)^\perp = N(A^T)\\)
 4. \\(N( A^T )^\perp = C(A)\\)
 
-(@) I don't know whether these function names are right in english. IIRC, from my portuguse notes, L(A) is the space of the lines of a matrix, C(A) is the space of the columns, and N(A) is the kernel.
+(@) I don't know whether these function names are right in English. IIRC, from my Portuguese notes, L(A) is the space of the lines of a matrix, C(A) is the space of the columns, and N(A) is the kernel.
 
 ---
 
@@ -345,7 +345,7 @@ be the coordinate vector of \\(x\\) in the basis \\(\mathcal B\\).
 
 \\[\alpha\_j = \frac{\langle x, b\_j\rangle}{\lVert b\_j\rVert^2}\\]
 
-### Coortinate vector in an orthonormal basis \\(\mathcal B\\)
+### Coordinate vector in an orthonormal basis \\(\mathcal B\\)
 
 \\[ \alpha\_j = \langle x, b\_j\rangle\\]
 
@@ -407,13 +407,75 @@ Given \\(u\in V\\) and some subspace \\(W\\) of \\(V\\) we hope to answer the fo
 
 > Which element \\(x\\) of \\(W\\) is closest to \\(u\\)?
 
-\\[
-\begin{aligned}
-d(u, x)^2 = \lVert u - x\rVert^2 &= \lVert(u - \text{proj}\_W u) + (\text{proj}_W u - x)\rVert^2 \\\\ &= \lVert u - \text{proj}\_W u\rVert^2 + \lVert \text{proj}\_W u - x\rVert^2 \qquad \text{(Pythagoras)}\\\\ &= \lVert \text{proj}\_{W^\perp} u\rVert^2 + \lVert\text{proj}\_W u - x\rVert^2\end{aligned}\\]
+\\[\begin{aligned}d(u, x)^2 = \lVert u - x\rVert^2 &= \lVert(u - \text{proj}\_W u) + (\text{proj}_W u - x)\rVert^2 \\\\ &= \lVert u - \text{proj}\_W u\rVert^2 + \lVert \text{proj}\_W u - x\rVert^2 \qquad \text{(Pythagoras)}\\\\ &= \lVert \text{proj}\_{W^\perp} u\rVert^2 + \lVert\text{proj}\_W u - x\rVert^2\end{aligned}\\]
 
 Whereby we conclude that
 
-> The optimal approximation coincides with \\(\text{proj}_W u\\)
+> The optimal approximation coincides with \\(\text{proj}\_W u\\) [^3]
+
+With that, we define the **distance from \\(u\\) to a subspace \\(W\\)** as
+
+\\[d(u, W) = \lVert proj\_{W^\perp} u \rVert\\]
+
+### \\(k\\)-plane cartesian equations
+
+A **\\(k\\)-plane** of \\(\mathbb R^n\\) is any subset \\(S\\) of \\(\mathbb
+R^n\\) which can be expressed as
+
+\\[S = W + p\\]
+
+Where \\(W\\) is a subspace of \\(\mathbb R^n\\) with dimension \\(k\\) and
+\\(p\\) is an element of \\(\mathbb R^n\\). Depending on the dimension of
+\\(W\\), we have the following nomenclature:
+
+* If \\(k = 0\\), \\(S\\) is said to be a **point**.
+* If \\(k = 1\\), \\(S\\) is said to be a **line**.
+* If \\(k = 2\\), \\(S\\) is said to be a **plane**.
+* If \\(k = n - 1\\), \\(S\\) is said to be a **hyperplane**.[^4]
+
+Let \\(x = (x\_1, x\_2, \ldots, x\_n)\\) be an elements of \\(S\\), there exists
+\\(y\\) in \\(W\\) such that
+
+\\[x = y + p\\]
+
+Or equivalently
+
+\\[y = x - p\\]
+
+The last equation show that, using vector, cartesian, or parametric equations of
+\\(W\\) we can easily obtain (substituting \\(y\\) for \\(x-p\\)) vector,
+cartesian, or parametric equations of \\(S\\), respectively.
+
+Analogously, using the subspace \\(W^\perp\\) we can also obtain equations of
+\\(S\\). If \\(B\_{W^\perp} = (v\_1, v\_2, \ldots, v\_{n-k})\\) is a basis for
+the orthogonal complement of \\(W\\), with \\(\text{dim} W = k\\), we have
+\\(x - p \in W\\) or, equivalently
+
+\\[\underbrace{\begin{bmatrix}
+v^T\_1 \\\\
+v^T\_2 \\\\
+\vdots \\\\
+v^T\_{n-k}
+\end{bmatrix}}\_{(n-k)\times n}
+\underbrace{\begin{bmatrix}
+x\_1 - p\_1 \\\\
+x\_2 - p\_2 \\\\
+\vdots \\\\
+x\_n - p\_n
+\end{bmatrix}}\_{n\times 1}=\underbrace{\begin{bmatrix}
+0 \\\\
+0 \\\\
+\vdots \\\\
+0
+\end{bmatrix}}\_{(n-k)\times 1}\\]
+
+Defining the matrix \\(A\\) as
+
+\\[A = \begin{bmatrix}v^T\_1 \\\\ v^T\_2 \\\\ \vdots \\\\ v^T\_{n-k} \end{bmatrix}\\]
+
+We obtain the homogenous linear equation system \\(A(x -p) = 0\\).
 
 [^1]: Note that \\(tr(B^T A) = tr(A^T B)\\), which allows us to define \\[\langle A, B\rangle = tr(A^T B) \\]
 [^2]: Because it is orthogonal.
+[^3]: The closest point to \\(u\\) in \\(W\\) is \\(\text{proj}\_W u\\).
+[^4]: If \\(k = n\\), \\(S = \mathbb R^n\\).
