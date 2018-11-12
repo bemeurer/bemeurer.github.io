@@ -473,7 +473,28 @@ Defining the matrix \\(A\\) as
 
 \\[A = \begin{bmatrix}v^T\_1 \\\\ v^T\_2 \\\\ \vdots \\\\ v^T\_{n-k} \end{bmatrix}\\]
 
-We obtain the homogenous linear equation system \\(A(x -p) = 0\\).
+We obtain the homogeneous linear equation system \\(A(x -p) = 0\\).
+Consequently, from a vector equation of \\(N(A)\\), or cartesian equations of
+\\(N(A)\\), or parametric equations of \\(N(A)\\), we can obtain the
+corresponding equations of \\(S\\).
+
+**Exercise.** Determine a vector equation, the cartesian equations, and the
+parametric equations of the plane passing the point \\(p = (1, 2, 0)\\) which is
+perpendicular to the line passing this same point with direction \\(n=(5, 1, -2)\\)
+
+### Distance from a point to a \\(k\\)-plane
+
+Let \\(S=W+p\\) and consider a point \\(q\in\mathbb R^n\\). Given \\(x\\) in
+\\(S\\),
+
+\\[\begin{aligned}d(q, x) = \lVert q - x \rVert \\\\  &= \lVert (q - p) + (p - x) \\\\ &= \lVert (q - p) - y \rVert \\\\ &= d(q-p, y) \\\\ \end{aligned}\\]
+
+The minimal value for this distance can be obtained for \\(y = \text{proj}\_{W}(q - p)\\), as previously described. We then define the **distance from point \\(q\\) to the plane \\(S\\)** as 
+
+\\[\begin{aligned}d(q, S) &= d(q - p, W) \\\\ &= \lVert \text{proj}\_{W^\perp}(q - p )\rVert\end{aligned}\\]
+
+**Exercise.** Compute the distance from \\((3, 2, -1\\) to the plane \\(S\\)
+from the previous exercise.
 
 [^1]: Note that \\(tr(B^T A) = tr(A^T B)\\), which allows us to define \\[\langle A, B\rangle = tr(A^T B) \\]
 [^2]: Because it is orthogonal.
