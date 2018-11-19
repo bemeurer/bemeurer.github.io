@@ -1,7 +1,7 @@
 ---
 title: "Euclidean Spaces"
 date: 2018-08-30T00:00:00Z
-draft: true
+draft: false
 tags:
   - notes
   - linear
@@ -473,7 +473,7 @@ Let \\(S=W+p\\) and consider a point \\(q\in\mathbb R^n\\). Given \\(x\\) in
 
 \\[\begin{aligned}d(q, x) &= \lVert q - x \rVert \\\\  &= \lVert (q - p) + (p - x) \\\\ &= \lVert (q - p) - y \rVert \\\\ &= d(q-p, y) \\\\ \end{aligned}\\]
 
-The minimal value for this distance can be obtained for \\(y = \text{proj}\_{W}(q - p)\\), as previously described. We then define the **distance from point \\(q\\) to the plane \\(S\\)** as 
+The minimal value for this distance can be obtained for \\(y = \text{proj}\_{W}(q - p)\\), as previously described. We then define the **distance from point \\(q\\) to the plane \\(S\\)** as
 
 \\[\begin{aligned}d(q, S) &= d(q - p, W) \\\\ &= \lVert \text{proj}\_{W^\perp}(q - p )\rVert\end{aligned}\\]
 
