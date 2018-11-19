@@ -23,6 +23,7 @@ PygmentsStyle = "monokai"
 
 [params]
 	tagline = "Ideas expressed here are nobody's."
+    description = "Bernardo's ramblings and non sequuntur"
     googleAnalytics = "UA-75408326-1"
     disqusShortname = "meurer"
     smartToc = true
