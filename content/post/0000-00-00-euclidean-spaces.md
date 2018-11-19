@@ -21,7 +21,7 @@ Real euclidean spaces have definitions of inner product and norm. Examples in
 * The unit-radius circumference when considering an unusual inner product
 * Cauchy-Schwarz inequality
 
-Let \\(V\\) be a real vector space. A form(@) or real function \\[
+Let \\(V\\) be a real vector space. A form or real function \\[
 \begin{aligned} \langle\cdot,\cdot\rangle\colon V\times V &\rightarrow \mathbb R
 \\\\ (x, y) &\mapsto \langle x,y\rangle \end{aligned}\\ \\] is said to be an
 _inner product_ if, for all \\(x, y, z \in V\\) and all \\(\alpha \in \mathbb
@@ -150,7 +150,7 @@ Note that:
 * For all non-null vectors \\(x\in V\\) \\[x\_B^T Gx\_b > 0\\]
 
 A square real matrix \\(A\\) of order \\(k\\) is said to be **positive
-definite**(@) if, for all non-null vectors \\(x\in\mathbb R^n\\), \\(x^T Ax >
+definite** if, for all non-null vectors \\(x\in\mathbb R^n\\), \\(x^T Ax >
 0\\)
 
 **Proposition 1.** _A symmetric real matrix is positive definite iff all your
@@ -301,7 +301,7 @@ or
 
 A subset \\(X\\) of an euclidean space \\(V\\) is said to be an **orthogonal set** if, for all \\(x, y\in X\\) with \\(x \neq y\\) we have \\(x \perp y\\).
 
-**Question. ** Let \\(X\\) be an orthogonal set not containing the null vector.
+**Question.** Let \\(X\\) be an orthogonal set not containing the null vector.
 
 * If \\(X\subseteq \mathbb R^2\\), how many vectors does \\(X\\) have at most?
 * If \\(X\subseteq \mathbb R^3\\), how many vectors does \\(X\\) have at most?
@@ -335,7 +335,7 @@ A subset \\(X\\) of an euclidean space \\(V\\) is said to be an **orthogonal set
 A basis \\(\mathcal{B}\\) of an euclidean space \\(V\\) is said to be:
 
 * An **orthogonal basis** if it is an orthogonal set;
-* An **orthonormal basis** if it is an orthogonal set, and all it's elements have unitary norm(@).
+* An **orthonormal basis** if it is an orthogonal set, and all it's elements have unitary norm.
 
 Let \\(x\in V\\) some vector, and let
 \\[(x)\_\mathcal{B} = (\alpha\_1, \alpha\_2, \ldots, \alpha\_n)\\]
@@ -369,7 +369,7 @@ Where \\(W\\) is the \\(x\\) axis.
 \\[u = u\_W + u\_{W^\perp}\\]
 _where \\(u\in W\\) and \\(u\_{W^\perp}\in E^\perp\\)._
 
-In these conditions, we say that \\(V\\) is the **direct sum** (@) of \\(W\\) with \\(W^\perp\\) and write
+In these conditions, we say that \\(V\\) is the **direct sum** of \\(W\\) with \\(W^\perp\\) and write
 \\[V = W \oplus W^\perp\\]
 Which, by definition, is to say:
 
@@ -451,23 +451,7 @@ Analogously, using the subspace \\(W^\perp\\) we can also obtain equations of
 the orthogonal complement of \\(W\\), with \\(\text{dim} W = k\\), we have
 \\(x - p \in W\\) or, equivalently
 
-\\[\underbrace{\begin{bmatrix}
-v^T\_1 \\\\
-v^T\_2 \\\\
-\vdots \\\\
-v^T\_{n-k}
-\end{bmatrix}}\_{(n-k)\times n}
-\underbrace{\begin{bmatrix}
-x\_1 - p\_1 \\\\
-x\_2 - p\_2 \\\\
-\vdots \\\\
-x\_n - p\_n
-\end{bmatrix}}\_{n\times 1}=\underbrace{\begin{bmatrix}
-0 \\\\
-0 \\\\
-\vdots \\\\
-0
-\end{bmatrix}}\_{(n-k)\times 1}\\]
+\\[\underbrace{\begin{bmatrix} v^T\_1 \\\\ v^T\_2 \\\\ \vdots \\\\ v^T\_{n-k} \end{bmatrix}}\_{(n-k)\times n} \underbrace{\begin{bmatrix} x\_1 - p\_1 \\\\ x\_2 - p\_2 \\\\ \vdots \\\\ x\_n - p\_n \end{bmatrix}}\_{n\times 1} = \underbrace{\begin{bmatrix} 0 \\\\ 0 \\\\ \vdots \\\\ 0 \end{bmatrix}}\_{(n-k)\times 1}\\]
 
 Defining the matrix \\(A\\) as
 
@@ -487,7 +471,7 @@ perpendicular to the line passing this same point with direction \\(n=(5, 1, -2)
 Let \\(S=W+p\\) and consider a point \\(q\in\mathbb R^n\\). Given \\(x\\) in
 \\(S\\),
 
-\\[\begin{aligned}d(q, x) = \lVert q - x \rVert \\\\  &= \lVert (q - p) + (p - x) \\\\ &= \lVert (q - p) - y \rVert \\\\ &= d(q-p, y) \\\\ \end{aligned}\\]
+\\[\begin{aligned}d(q, x) &= \lVert q - x \rVert \\\\  &= \lVert (q - p) + (p - x) \\\\ &= \lVert (q - p) - y \rVert \\\\ &= d(q-p, y) \\\\ \end{aligned}\\]
 
 The minimal value for this distance can be obtained for \\(y = \text{proj}\_{W}(q - p)\\), as previously described. We then define the **distance from point \\(q\\) to the plane \\(S\\)** as 
 
