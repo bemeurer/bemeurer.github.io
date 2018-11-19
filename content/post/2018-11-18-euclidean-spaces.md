@@ -33,7 +33,7 @@ R\\),
 4. \\(\langle x, x\rangle \geq 0 \wedge (\langle x, x\rangle = 0 \implies x =
    0)\\)
 
-A real linear space \\(V\\) armed with an inner product is called an (real)
+A real linear space \\(V\\) equipped with an inner product is called an (real)
 **Euclidean Space**.
 
 ### Examples
@@ -165,7 +165,7 @@ following statements are equivalent._
 
 ### Exercise
 
-Consider that \\(\mathbb R^n\\) is armed with the canonical basis
+Consider that \\(\mathbb R^n\\) is equipped with the canonical basis
 \\(\mathcal{e}\_n\\). What is the Gram matrix \\(G\\) that corresponds to the usual
 inner product in \\(\mathbb R^n\\)? Also, which Gram matrix corresponds to the
 inner product in item (2) of the previous exercise?
@@ -186,7 +186,7 @@ is said to be an **inner product** if, for all \\(x, y, z \in V\\) and all \\(\a
 4. \\(\langle x, x\rangle \geq 0 \wedge (\langle x, x\rangle = 0 \implies x =
    0)\\)
 
-A complex vector space \\(V\\) armed with an inner product is called a (complex)
+A complex vector space \\(V\\) equipped with an inner product is called a (complex)
 **euclidean space**.
 
 Much like with real euclidean spaces, we define the **norm** of a vector as
@@ -361,7 +361,7 @@ We define the **orthogonal projection of \\(x\\) over \\(b\_j\\)** as the vector
 In a more general sense, given two vectors \\(u\\) and \\(v\\) from an euclidean space \\(V\\), with \\(v\neq 0\\) the **orthogonal projection of \\(u\\) over \\(v\\)** is the vector
 \\[\text{proj}\_v u = \frac{\langle u, v \rangle}{\lVert v \rVert}^2 v\\]
 
-**Example.** Considering that \\(\mathbb R^2\\) is armed with the canonical basis \\(\mathcal{E}\_2 = (e\_1, e\_2)\\), any vector \\(u\in\mathbb R^2\\) can be expressed as a sum
+**Example.** Considering that \\(\mathbb R^2\\) is equipped with the canonical basis \\(\mathcal{E}\_2 = (e\_1, e\_2)\\), any vector \\(u\in\mathbb R^2\\) can be expressed as a sum
 \\[\begin{aligned}u &= \text{proj}\_{ e\_1} u + \text{proj}\_{ e\_2} u \\\\ &= u\_W + u\_{W^\perp}\end{aligned}\\]
 Where \\(W\\) is the \\(x\\) axis.
 
@@ -378,14 +378,14 @@ Which, by definition, is to say:
 
 We define the **orthogonal projection of \\(u\\) over \\(W\\)** as being the vector \\(u\_W\\).
 
-If we consider that \\(W\\) is armed with the ordered __orthogonal__ basis \\(\mathcal{B} = (b\_1, b\_2, \ldots, b\_k)\\), we have
+If we consider that \\(W\\) is equipped with the ordered __orthogonal__ basis \\(\mathcal{B} = (b\_1, b\_2, \ldots, b\_k)\\), we have
 \\[\text{proj}\_W u = \text{proj}\_{b\_1} u + \text{proj}\_{b\_2} u + \cdots + \text{proj}\_{b\_k} u\\]
 
 **Question.** How can we compute the vector \\(u\_{W^\perp}\\) or, in other words, \\(\text{proj}\_{W^\perp} u\\)?
 
 **Answer.**
 \\[\text{proj}\_{W^\perp} u = u - u\_W\\]
-or, if we consider that \\(W^\perp\\) is armed with the ordered orthogonal basis \\(\mathcal{B}' = (b\_1', b\_2', \ldots, b\_l')\\), we have
+or, if we consider that \\(W^\perp\\) is equipped with the ordered orthogonal basis \\(\mathcal{B}' = (b\_1', b\_2', \ldots, b\_l')\\), we have
 \\[\text{proj}\_{W^\perp} u = \text{proj}\_{b'\_1} u + \text{proj}\_{b'\_2} u + \cdots + \text{proj}\_{b'\_l} u\\]
 
 **Question.** What is the number \\(l\\) of vectors in the basis of \\(\mathcal{B}'\\)?
