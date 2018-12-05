@@ -11,6 +11,10 @@ categories:
 comments: true
 markup: "mmark"
 ---
+## Fixes
+specially -> especially
+word repetition
+
 
 ## Introduction
 
@@ -78,7 +82,7 @@ filesystems quite a lot, I must say that APFS is an extremely solid CoW
 offering. Native encryption and snapshotting just work, absolutely seamless
 experience. I wish it had compression support, and that it was open source, but
 nothing is perfect. Secondly Xcode; I barely used Xcode during my time with the
-MacBook, mostly because IDEs just aren't my thing, but the feel times I tried it
+MacBook, mostly because IDEs just aren't my thing, but the few times I tried it
 to test things out it seemed fine.
 
 Now to the hardware: it's fantastic. The MacBook Pro[^2] feels absolutely amazing
@@ -92,11 +96,10 @@ I needed for a variety of situations. The touchpad is truly phenomenal, and
 miles ahead of anything anyone else has to offer; I never thought a touchpad
 could feel this good. The screen is OK.
 
-Another note on hardware that I really feel deserves its own section I'd like to
-talk about audio, because it's phenomenal. It is absolutely amazing to me that a
-laptop this thin and this small could have audio this good. It's clear and gets
-loud with no distortions, really just unbelievably good for a device in this
-form factor.
+Another note on hardware that I really feel deserves its own section is audio,
+because it's phenomenal. It is absolutely amazing to me that a laptop this thin
+and this small could have audio this good. It's clear and gets loud with no
+distortions, really just unbelievably good for a device in this form factor.
 
 To close up this section, I hope I've made it clear that the MacBook isn't a
 'steaming pile of garbage' as many on the Internet claim, there's a lot to love
@@ -137,7 +140,7 @@ open for a same application good old Alt+Tab (or Cmd+Tab in macOS) won't
 work, that only switches between distinct applications; amazing. I eventually
 mapped Cmd+Esc to switching between application windows. Moreover they apply the
 same satanic algorithm from workspaces to dynamically reorder the applications
-in the switcher, which makes it even worst. It's been months and I still haven't
+in the switcher, which makes it even worse. It's been months and I still haven't
 been able to use workspaces or the damn switcher in a way that feels ergonomic
 and productive. This has been the motivating force for me to move most of my
 workflow into the terminal using tmux to manage panes, because if I need to
