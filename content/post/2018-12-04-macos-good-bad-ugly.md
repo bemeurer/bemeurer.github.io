@@ -11,11 +11,6 @@ categories:
 comments: true
 markup: "mmark"
 ---
-## Fixes
-specially -> especially
-word repetition
-
-
 ## Introduction
 
 As far as people's usual interaction with computers go, I think I've had a
@@ -53,7 +48,7 @@ about owning one.
 Six months in, I can say that some of my admiration was well deserved. Overall I
 find that the graphical experience on macOS is beautifully consistent, the
 entire OS just feels coherent and nice to use. Overall I just really like the
-look & feel of macOS, specially Mojave with its very comfortable Dark Mode.
+look & feel of macOS, especially Mojave with its very comfortable Dark Mode.
 
 Another thing that I really liked was having the Numbers/Pages/Keynote software
 suit, it really does feel much better than LibreOffice. I wouldn't normally care
@@ -73,7 +68,7 @@ Redshift or f.lux) works very well and starts to shift colors on my screen at
 precisely the right times. Setting up Wi-Fi networks and Bluetooth devices is
 super easy and also works well, I've gotten great range with my Sony Wh-1000XM2
 when paired to the MacBook. Being able to take FaceTime calls on my computer
-also felt pretty cool, specially when I was working and didn't want to leave my
+also felt pretty cool, especially when I was working and didn't want to leave my
 desk to go pick up my phone in my room. Messages integration was OK.
 
 As a last note on software, I want to touch on some things I didn't get to
