@@ -39,15 +39,15 @@ began.
 
 I've always wanted to give macOS[^1] a try, it always looked very beautiful and
 polished to me. On top of that, there were certain applications that I had been
-interested in trying for a while, and that only ran on macOS. On top of this,
-the MacBook Pro's always seemed to me like the golden standard in hardware, they
+interested in trying for a while, and that only ran on macOS. Moreover, the
+MacBook Pro's always seemed to me like the golden standard in hardware, they
 were gorgeous and seemed to always work smoothly when I saw others use them.
 Over the years I had grown to like the MacBooks so much I almost fantasized
 about owning one.
 
 Six months in, I can say that some of my admiration was well deserved. Overall I
 find that the graphical experience on macOS is beautifully consistent, the
-entire OS just feels coherent and nice to use. Overall I just really like the
+entire OS just feels coherent and nice to use. I just really like the
 look & feel of macOS, especially Mojave with its very comfortable Dark Mode.
 
 Another thing that I really liked was having the Numbers/Pages/Keynote software
