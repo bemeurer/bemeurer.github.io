@@ -189,7 +189,7 @@ Apple gets wrong are global shortcuts, they kind of suck. It's super easy to
 have conflicting shortcuts with applications' defaults, and then there is no way
 to set a preference for the OS defined ones. Also Cmd+Enter, which I used to
 have bound to opening the terminal on Linux, is not a valid shortcut apparently,
-which forced me to move to Cmd+\. It's just annoying how shortcut conflicts &
+which forced me to move to Cmd+\\. It's just annoying how shortcut conflicts &
 interactions are handled.
 
 Some other issues I had with macOS were weird video issues, my screen would
