@@ -1,7 +1,7 @@
 ---
 title: "macOS: The Good, The Bad, and The Ugly"
 date: 2018-12-04T20:13:15Z
-draft: false
+draft: true
 tags:
   - opinion
   - macos
