@@ -10,7 +10,7 @@ weight: 100
 <img src="/images/me.jpg" alt="Me" style="width: 400px;"/>
 ⟵ Me
 
-Hey there, I'm Bernardo and I'm a Computer Science student. I set up this blog to share
+Hey there, I'm Bernardo and I'm a Mathematics student. I set up this blog to share
 some of the projects I work on, immediately after that, however, my free time was
 pulverized. I enjoy running Linux on potato-like computers (and on actual
 potatos!), arbitrary precision arithmetics, and weird C bugs. I'm a quantum
