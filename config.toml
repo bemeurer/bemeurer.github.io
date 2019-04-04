@@ -1,4 +1,4 @@
-baseURL = "https://lovesegfault.com/"
+baseURL = "http://lovesegfault.com/"
 languageCode = "en-us"
 title = "null pointer"
 theme = "kiera"
