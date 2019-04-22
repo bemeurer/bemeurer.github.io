@@ -17,7 +17,7 @@ markup: "mmark"
 
 I was 18 when I moved to Lisbon. I wasn't really sure who I wanted to be, and I
 mean that quite literally. I was very much aware that, having just left my home
-country, I had I chance to choose who I wanted to be, in a sense. Of course I
+country, I had a chance to choose who I wanted to be, in a sense. Of course I
 couldn't just throw away all my baggage and persona, a lot of it was going to be
 part of who I was no matter what, but somehow it felt like a chance to pick new
 hobbies, new habits, things like that. I'm not entirely sure how I chose to
