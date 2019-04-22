@@ -91,7 +91,7 @@ in my new collection[^4], but it wasn't possible. The vibrations from the
 highway were so pronounced that it caused the needle to move around, it would
 skip grooves, or just sounds like garbage whenever a truck or the train passed
 by. I was so frustrated I packaged everything back in their respective boxes and
-placed in in a remote corner of the house where I would positively forget about
+placed it in a remote corner of the house where I would positively forget about
 their existence. That never quite happen, the amplifier box that I hid under the
 sofa created a pronounced bump on the cushion, a mildly annoying reminder of the
 passion I had left behind. Much like my equipment, the sofa quickly felt into
