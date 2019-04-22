@@ -121,7 +121,7 @@ into a Maelstrom that was slowly engulfing me, like a lion desperately confused
 chasing after zebras in the savannah. Suddenly I knew which direction to swim
 in, I had zeroed in on my prey and I was ready to conquer it. It was the first
 time in months I had felt centered, with a clear goal. I had to get them back,
-sit down, and listen to favorite record[^6].
+sit down, and listen to my favorite record[^6].
 
 I haven't achieved that goal yet, but somehow just having this mundane victory
 to look forward to helped me climb out of the hole that I had dug myself into. I
