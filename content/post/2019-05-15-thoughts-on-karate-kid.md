@@ -37,7 +37,7 @@ appeasing that. How often in adult life do we find ourselves utterly and
 completely alone in our struggles? How commonly our shortcomings surface to
 frustrate us, and in that frustration catalyze our loneliness?
 
-The display of affection in support in the video gives us a glimpse of what we
+The display of affection and support in the video gives us a glimpse of what we
 could have, if only we did not tax others so heavily, if only the incentive
 structures of adult life weren't so twisted. The fact that no one laughs, even
 for a split second, even when he cries or seems to lose strength seem almost
@@ -56,7 +56,7 @@ remember taking this midterm, and feeling utterly and completely stupid, it made
 little sense to me and I couldn't handle it; I remember the thoughts of all the
 things I'd have to endure for doing poorly on it circling my mind: I'd be
 grounded, I'd lose computer privileges, I wouldn't be able to see my friends
-until the next exam I excelled at.
+until the next exam I excelled at, and so on.
 
 As the clock ticked these thoughts grew into
 a cacophony too large for me to handle it, and I broke down crying. I was
