@@ -1,7 +1,7 @@
 ---
 title: "Thoughts on Karate Kid"
 date: 2019-05-15T22:06:00Z
-draft: true
+draft: false
 tags:
   - essay
   - karate
