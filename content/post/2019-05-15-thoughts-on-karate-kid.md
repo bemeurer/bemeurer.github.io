@@ -17,9 +17,8 @@ Recently a video has surfaced (gone viral) of a young kid, who looks to be about
 four or five years old attempting to perform that classic cool "Breaking a slab
 of wood kick move." If you have not yet seen it, here it is:
 
-<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">OK...how can you not be moved to happy tears by this? THIS defines love, connection, and support. It&#39;s PERFECT 😣😭😍 <a href="https://t.co/oSXDVT7t2J">pic.twitter.com/oSXDVT7t2J</a></p>&mdash; Viola Davis (@violadavis) <a href="https://twitter.com/violadavis/status/1128699479547236352?ref_src=twsrc%5Etfw">May 15, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<blockquote class="reddit-card" data-card-created="1559117144"><a href="https://www.reddit.com/r/aww/comments/bnwjar/the_lesson_of_never_giving_up/">The lesson of never giving up!</a> from <a href="http://www.reddit.com/r/aww">r/aww</a></blockquote>
+<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
 
 On the few times I've seen it posted on Twitter and Reddit, the overwhelming
 reaction from people is extremely emotional, lots of tears. Even after having
