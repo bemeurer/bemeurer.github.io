@@ -83,4 +83,4 @@ New Years so it doesn't take even longer so that I can go back to work soon.
 
 [^2]: Not really.
 
-[^3]: The unsung hero here is our CDW representative, Shane, which is the most timely, professional, and helpful person I have ever dealt with in this area. I could not recommend CDW more.
+[^3]: The unsung hero here is our CDW representative, Shane, who is the most timely, professional, and helpful person I have ever dealt with in this area. I could not recommend CDW more.
