@@ -4,9 +4,9 @@ https://keybase.io/bemeurer
 
 I hereby claim:
 
-  * I am an admin of https://meurer.xyz
+  * I am an admin of https://lovesegfault.com
   * I am bemeurer (https://keybase.io/bemeurer) on keybase.
-  * I have a public key ASD0zmcEiwodicpK3mIzcVO1bxhF-_5jqgbpDJgymZXDogo
+  * I have a public key with fingerprint 5894 12CE 19DF 582A E10A  3320 E421 C741 91EA 186C
 
 To do so, I am signing this object:
 
@@ -14,39 +14,50 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "01012951df1dc52188097542c160f78e409c65053954e38de9d94f1851c364e276b20a",
+      "fingerprint": "589412ce19df582ae10a3320e421c74191ea186c",
       "host": "keybase.io",
-      "kid": "0120f4ce67048b0a1d89ca4ade62337153b56f1845fbfe63aa06e90c98329995c3a20a",
+      "key_id": "e421c74191ea186c",
+      "kid": "01012951df1dc52188097542c160f78e409c65053954e38de9d94f1851c364e276b20a",
       "uid": "2ca12f5418492e22966c8382a8250719",
       "username": "bemeurer"
     },
-    "merkle_root": {
-      "ctime": 1540322818,
-      "hash": "4aacae16f5316e6041bf7756d2d5e47a0c70bc8bb4ee41fcf981acda0f9165dad7a478319010f14f6e6315ba74499ac5409830a7c472d6643c761dd41dc90764",
-      "hash_meta": "ca8658946a0c31e2f44235e189e5c8bd1345eaea4c1b0c8c5755571009777ea0",
-      "seqno": 3838416
-    },
     "service": {
-      "entropy": "xmUCCd8ZSfB58b5EVJ+X9Sxf",
-      "hostname": "meurer.xyz",
+      "hostname": "lovesegfault.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "2.7.3"
-  },
-  "ctime": 1540322836,
-  "expire_in": 504576000,
-  "prev": "6db689894f1fb49ebf610ab434d4cd7599a340a468e77fa8f22d22e95a70e553",
-  "seqno": 9,
+  "ctime": 1572024973,
+  "expire_in": 157680000,
+  "prev": "1de83d63797749f83b1943dac38063fd552dc3bdad38aeb35e9b403ca7b4dcf5",
+  "seqno": 22,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9M5nBIsKHYnKSt5iM3FTtW8YRfv+Y6oG6QyYMpmVw6IKp3BheWxvYWTESpcCCcQgbbaJiU8ftJ6/YQq0NNTNdZmjQKRo53+o8i0i6Vpw5VPEICsfaMdobVPxRJBfhmOKDaJGaRUzlCped35Z8Hk5ekjIAgHCo3NpZ8RAhl+Iew2MEnSoFBBoGVY0KMNwZsZGnZ69qIA1HpM5s16j39TW3ARvRUR14ZgE6LCZt3W9ifDjY0w05aVkwNjvC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP/0opaNKsrbenJ/G4F6r3Gf8YS4FajE5nipXS8yQHY7o3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+
+owGtUl1oFUcYvTfGNkZKo6Txp0p1C7eJSXVnZn9mbn0wtgklBDEQkxCR6+zM7M2S
+m93b3c2NwealxhBta7QUJTRoH1rFcmmsoW0aKKYFf2iLStNU2gdFFDUaCtqqAfFn
+Nuibj52XYc6cc77zfXx7X5oTK4pfXXm6et/NxZn4r1NWbMsI3LddsTzerSS3K+1i
+9hIZLoIw1e5wJamoQAWQ6IDbgDMdAoxVYuoaZMBQbRMLTSXM0FUdEV0TCHNBONFs
+gHXAkKEJaBoWVKlSpdiOmxZ+1nfcUNrqmGgAMgEIt3UMqQAqRQiqQoOAmRogQFCA
+DSaFbV4QKWQ4iwZiteNJTD5Ss/Gew/+fc3fO2kFGAbR1DWCNQAEhMQyGkQyOoa6a
+gETEQPgu7RCSbYkO0ekLX+mpUiSac5iIBht18pSR8XIiEGmbdmbC1czrkPqs74Ue
+8zLyty0Ms0EyUofd2YjeJazUU6OU5bhczlIqcsIPHM9VkkAyWehEzkA3oQo1YqIq
+RWzLOr5IOe4sbGBVnqiOyElLwMUWjLiBTGKaGrExsgDREKcMYdVANtd1yBmyOOUI
+U2EhXRBLUxGjpqVxZutK1Nt7rqckIZRBaVqaBk7apaFsXekp3hVHhbF4UWx52crC
+lk8Xnl1yqWXV5WK04tkCzi2Iti9WPK/kGfLFQFFsaHfzjZraCrL88MeJo/N2LFUr
+pxYfqD5wqvX1yaHzv+14Y2j0+/uNp/5t/2Vn/pNFg/UT+wsf3q7sX+OBwk21dXWv
+FG9uOrhn/LUjjxvfH1/b+nWu7PDYWNPgxf5DG27dq/yLf7Pkw8mXy6fX/Vh/bc2f
+NflES/56/r9Libvf9dQcH2yfT37/jHpVJ3qXDTnlrf08v1E9v+BIX9eyb6++Sp0H
+j2v9qa1WW+M/P6y9d//C/PWfF0zcHv6y+dii0sTJnb2JO/Ttc2/e3O9OTjt3HlVs
+ogP1K6btgI2evnvm2B8v9r318+i2j9anhmfKr7/bPfJT3+YGXJJu/KDhhYE5X/0d
+6525UnryneoL408A
+=Exo4
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -54,3 +65,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/bemeurer
 
 ==================================================================
+
