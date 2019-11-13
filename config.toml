@@ -1,6 +1,6 @@
 baseURL = "https://lovesegfault.com/"
 languageCode = "en-us"
-title = "null pointer test"
+title = "null pointer"
 theme = "kiera"
 copyright = "Copyright &copy; 2019 - Bernardo Meurer"
 enableEmoji = true
