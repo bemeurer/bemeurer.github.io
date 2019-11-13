@@ -10,8 +10,12 @@ canonifyurls = true
 
 googleAnalytics = "UA-75408326-1"
 summaryLength = 30
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+
+pygmentsStyle = "dracula"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsOptions = "linenos=1"
+
 
 [author]
     name = "Bernardo Meurer"
