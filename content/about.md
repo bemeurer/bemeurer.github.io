@@ -1,11 +1,9 @@
----
-title: About Me
-excerpt: "Who are you again?"
-menu: "main"
-meta: "false"
-weight: 100
----
-
++++
+title = "About Me"
+menu = "main"
+meta = "false"
+weight = 100
++++
 
 <img src="/images/me.jpg" alt="Me" style="width: 400px;"/>
 ⟵ Me
@@ -16,11 +14,13 @@ pulverized. I enjoy running Linux on potato-like computers (and on actual
 potatos!), arbitrary precision arithmetics, and weird C bugs. I'm a quantum
 computing enthusiast as well.
 
-I did some work on [factorial algorithms][fact] a while back, and I'm working
-on [cappy][cappy], [an implementation of Euler's Totient][euler], and an
-[Ackermann calculator][ack]. I maintain a [beautifier for Bash][beautysh], and
-I'm working on my own Rust-based OS called [Daedalos][daedalos]. I interned at
-[Async][async] for a while, and I'm now working for [Standard Cognition][standard]. You can always contact me at [meurerbernardo@gmail.com](mailto://meurerbernardo@gmail.com).
+I did some work on [factorial algorithms][fact] a while back, and I'm working on
+[cappy][cappy], [an implementation of Euler's Totient][euler], and an [Ackermann
+calculator][ack]. I maintain a [beautifier for Bash][beautysh], and I'm working
+on my own Rust-based OS called [Daedalos][daedalos]. I interned at
+[Async][async] for a while, and I'm now working for [Standard
+Cognition][standard]. You can always contact me at
+[meurerbernardo@gmail.com](mailto://meurerbernardo@gmail.com).
 
 I'm an advocate for Open Source software and freedom of speech. Here are, for
 curiosity's sake, some other things I enjoy:
