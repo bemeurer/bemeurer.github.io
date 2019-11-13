@@ -18,7 +18,7 @@ how much they hated computers. Unsurprisingly, then, I grew up with a desktop
 that was all-around garbage and running Windows on it, from XP to 7, was a
 painful endeavor.
 
-{{< figure src="/images/ubuntu-cd.png" caption="Back in the day!">}}
+{{< figure src="/images/wip/ubuntu-cd.png" caption="Back in the day!">}}
 
 Luckily, when I was around 7 we had Bring Your Father to School Day, and one of my
 classmates' father worked at Canonical and gave us all Ubuntu CDs. I installed

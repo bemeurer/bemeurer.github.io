@@ -18,7 +18,7 @@ possible
 
 ## Hadware Requirements
 
-{{<figure src="/images/nspire-io.jpg">}}
+{{<figure src="/images/2016-05-30/io.jpg">}}
 
 The IO of the Nspire is poor. As you can see in the image above, the TI has one
 mini USB port (left) and one non-standard connector (right) used for their

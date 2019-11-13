@@ -5,7 +5,7 @@ meta = "false"
 weight = 100
 +++
 
-<img src="/images/me.jpg" alt="Me" style="width: 400px;"/>
+<img src="/images/misc/me.jpg" alt="Me" style="width: 400px;"/>
 ⟵ Me
 
 Hey there, I'm Bernardo and I'm a Mathematics student. I set up this blog to share
