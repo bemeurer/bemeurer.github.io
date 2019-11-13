@@ -1,21 +1,12 @@
----
-title: "Thinkpad Nightmare"
-date: 2019-01-24T23:38:15Z
-draft: false
-tags:
-  - lenovo
-  - thinkpad
-  - support
-  - bios
-  - horrible
-  - p1
-  - nightmare
-categories:
-    - essay
-comments: true
-
-markup: "mmark"
----
++++
+title = "Thinkpad Nightmare"
+date = 2019-01-24T23:38:15Z
+draft = false
+tags = [ "lenovo", "thinkpad", "bios", "nightmare" ]
+categories = [ "essay" ]
+comments = true
+markup = "mmark"
++++
 
 A few weeks ago I finally got my new work computer. I had been using an
 underpowered MacBook Pro that I had grown to hate for months, and so I asked for
@@ -48,7 +39,7 @@ you finally speak to a human, you are welcomed by the Lenovo technical support
 center in Atlanta, Georgia[^1]. Now, I am not a native speaker of English, but
 my (spoken) English is almost undetectable, most people think I'm from Ohio and
 I've had a hard time convincing some otherwise, and yet every single person I
-spoke to at the support center was nigh unintelligible. I really could not
+spoke to at the support center was almost unintelligible. I really could not
 understand what they were saying, which made it all the more frustrating. To cut
 this short, I eventually managed to communicate, at which point they told me to
 unplug the computer and allow it to power off eventually and see what happened.
@@ -79,8 +70,11 @@ something as basic and as essential as their BIOS right they might as well give
 up on making computers. I just hope I get my replacement soon, before Chinese
 New Years so it doesn't take even longer so that I can go back to work soon.
 
-[^1]: I only know this because an annoying voice, almost mocking you after the journey it took to reach the support center, announces it proudly.
+[^1]: I only know this because an annoying voice, almost mocking you after the
+    journey it took to reach the support center, announces it proudly.
 
 [^2]: Not really.
 
-[^3]: The unsung hero here is our CDW representative, Shane, who is the most timely, professional, and helpful person I have ever dealt with in this area. I could not recommend CDW more.
+[^3]: The unsung hero here is our CDW representative, Shane, who is the most
+    timely, professional, and helpful person I have ever dealt with in this area.
+    I could not recommend CDW more.

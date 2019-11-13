@@ -1,19 +1,11 @@
----
-title: "Running Debian on the TI Nspire CX Calculator"
-excerpt: "Getting Debian to run on the Nspire CX CAS"
-date: 2016-05-30T00:00:00Z
-draft: false
-categories:
-    - tutorial
-tags:
-  - linux
-  - ti
-  - arm
-  - tutorial
-  - calculator
-comments: true
-share: true
----
++++
+title = "Running Debian on the TI Nspire CX Calculator"
+date = 2016-05-30T00:00:00Z
+draft = false
+tags = [ "linux", "ti", "arm", "calculator" ]
+categories = [ "tutorial" ]
+comments = true
++++
 
 I've been taking a look at running Linux on ARM microprocessors,
 cross-compiling the Kernel from an x64 architecture and kernel tinkerings of
@@ -44,24 +36,24 @@ attempts at performing this on it I yielded to using Debian atop of a VM.
 
 With that said, begin by formatting your USB drive to EXT4. You can do this by:
 
-1.  Identify the address of your drive by running `lsblk`. It should be of form
+1. Identify the address of your drive by running `lsblk`. It should be of form
     `/dev/sdxY`, mine is `/dev/sdc1` for example.
 
-2.  Make sure the drive is **unmounted** by running `sudo umount /dev/sdxY`.
+1. Make sure the drive is **unmounted** by running `sudo umount /dev/sdxY`.
 
-3.  Run `sudo mkfs.ext4 /dev/sdxY` .
+1. Run `sudo mkfs.ext4 /dev/sdxY` .
 
 With this done we now must install our dependencies by executing
 `sudo apt-get install qemu-user-static binfmt-support debootstrap`. These
 packages are for:
 
--   [`qemu-user-static`][qemu] - Running our ARM compiled system on our x86/x64
+- [`qemu-user-static`][qemu] - Running our ARM compiled system on our x86/x64
     machine.
 
--   [`binfmt-support`][binfmt] -  *"A more flexible version of the #! executable
+- [`binfmt-support`][binfmt] -  *"A more flexible version of the #! executable
                                    interpreter mechanism"*
 
--   [`debootstrap`][debootstrap] - Installs a Debian base system into a
+- [`debootstrap`][debootstrap] - Installs a Debian base system into a
                                    directory
 
 Proceed by mounting the flash drive, create a folder for the mouting to take
@@ -105,10 +97,10 @@ calculator's own file system (ROM). This part will require Windows or OSX,
 my attempts at running TI's connectivity software on Wine haven't been
 successful. Begin by download the [required files][files], which are:
 
--   [Kernel][kernel]
--   [DTB file][dtb]
--   [Loader binary][loader]
--   [Startup script][startup]
+- [Kernel][kernel]
+- [DTB file][dtb]
+- [Loader binary][loader]
+- [Startup script][startup]
 
 We must now edit the `ndless.cfg.tns` file and add `ext.ll2 linuxloader2` to the
 end of it, this will associate our script to the linux loader. Rename the DTB

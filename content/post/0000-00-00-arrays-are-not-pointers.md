@@ -1,18 +1,12 @@
----
-title: "Arrays Are Not Pointers"
-date: 2018-01-13T14:08:15Z
-draft: true
-tags:
-  - essay
-  - C
-  - C99
-  - programming
-  - introductory
-categories:
-    - essay
-comments: true
-markup: "mmark"
----
++++
+title = "Arrays Are Not Pointers"
+date = 2019-11-01T00:01:01Z
+draft = true
+tags = [ "arrays", "pointers", "C", "programming" ]
+categories = [ "essay" ]
+comments = true
+markup = "mmark"
++++
 
 I've know C, and in particular C99, for quite a while now. I've finally reached
 the point where I've had more years of my life knowing (at least some) C than
@@ -51,18 +45,22 @@ Standard][cstd] 6.5.3.4, item 2:
 
 So, given that I'm on a 64-bit system, we'd expect to see the following output,
 were arrays and pointers to be the same:
-```
+
+```C
 sizeof(ptr) = 8
 sizeof(arr) = 8
 ```
+
 The output is the number of _bytes_, so it'd be indicating they are both a
 64-bit address, all golden, right? Well, no, this is what you actually
 see:
-```
+
+```C
 sizeof(ptr) = 8
 sizeof(arr) = 20
 ```
-Wat?
+
+wat?
 
 The answer, as usual, lies within the standard, in particular there are two
 interesting sections regarding this, 6.2.5 item 20 and 6.5.3.4 item 3.
@@ -74,7 +72,6 @@ interesting sections regarding this, 6.2.5 item 20 and 6.5.3.4 item 3.
 > element type is T, the array type is sometimes called "array of T". The
 > construction of an array type from an element type is called "array type
 > derivation". [Emphasis mine]
-
 
 So, perhaps unexpectedly, `sizeof()` has special behavior for arrays (it also has
 special behavior for VLAs[^1]) and it instead returns the sum of the sizes of the
@@ -118,7 +115,8 @@ int main(void) {
     print_arr(arr, 10);
 }
 ```
-```
+
+```C
 >>>> len = 10
 >>>> len = 2
 arr[ 987922591 1583865774 0 0 0 0 0 0 0 0 ]
@@ -138,9 +136,10 @@ we have the computed length equal to `2`, and thus only the first two elements
 of the array are initialized. This is a not-too-bad manifestation of this issue,
 consider for a moment what could happen if the array had length 1.
 
-Luckily nowadays we have very smart compilers that will yield warnings in case
-you try to do something like this, namely as I was building this example locally
-I got the following
+Luckily nowadays we have smart compilers that will yield warnings in case you
+try to do something like this, namely as I was building this example locally I
+got the following
+
 ```
 sizeof.c:14:24: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
     size_t len = sizeof(arr)/sizeof(int);
@@ -149,15 +148,21 @@ sizeof.c:12:20: note: declared here
 void randomize(int arr[]) {
                    ^
 ```
+
 This very precisely tells us we're about to do something that is most likely
 incorrect[^3], but nonetheless this can be quite annoying to beginners.
 
 Not incidentally, the `print_arr()` function shows the correct way to do this
 kind of thing; you really have to pass the length[^4] along with the "array."
 
-[^1]: For VLAs (Variable Length Arrays) the standard specifies the same behavior as for arrays, with the additional complications coming from their runtime-determined sizes.
-[^2]: A "fat pointer" is lingo for a structure containing both a pointer and its length, basically.
-[^3]: That we now have warnings that are this easy to read and grasp in C is absolutely amazing, and a crucial effort that often goes overlooked.
-[^4]: Note the use of `size_t` for the lengths, if you didn't know about it, you should check it out[INSERT LINK].
+[^1]: For VLAs (Variable Length Arrays) the standard specifies the same behavior
+    as for arrays, with the additional complications coming from their
+    runtime-determined sizes.
+[^2]: A "fat pointer" is lingo for a structure containing both a pointer and its
+    length, basically.
+[^3]: That we now have warnings that are this easy to read and grasp in C is
+    absolutely amazing, and a crucial effort that often goes overlooked.
+[^4]: Note the use of `size_t` for the lengths, if you didn't know about it, you
+    should check it out[INSERT LINK].
 
 [cstd]: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1256.pdf

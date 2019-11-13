@@ -1,37 +1,30 @@
----
-title: "The Lost Ark"
-date: 2019-04-22T00:54:01Z
-draft: false
-tags:
-    - vinyl
-    - records
-    - ark
-    - lost
-    - lisbon
-    - portugal
-categories:
-    - essay
-comments: true
-markup: "mmark"
----
++++
+title = "The Lost Ark"
+date = 2019-04-22T00:54:01Z
+draft = false
+tags = [ "vinyl", "records", "lisbon", "lost" ]
+categories = [ "essay" ]
+comments = true
+markup = "mmark"
++++
 
 I was 18 when I moved to Lisbon. I wasn't really sure who I wanted to be, and I
-mean that quite literally. I was very much aware that, having just left my home
-country, I had a chance to choose who I wanted to be, in a sense. Of course I
-couldn't just throw away all my baggage and persona, a lot of it was going to be
-part of who I was no matter what, but somehow it felt like a chance to pick new
-hobbies, new habits, things like that. I'm not entirely sure how I chose to
-collect vinyl records and make audio a hobby, in hindsight it was the union of a
-lot of things that I loved deeply: music, analog circuitry, DIY[^1],
-woodworking, collecting, and on it goes.
+mean that quite literally. I was aware that, having just left my home country, I
+had a chance to choose who I wanted to be, in a sense. Of course I couldn't just
+throw away all my baggage and persona, a lot of it was going to be part of who I
+was no matter what, but somehow it felt like a chance to pick new hobbies, new
+habits, things like that. I'm not entirely sure how I chose to collect vinyl
+records and make audio a hobby, in hindsight it was the union of a lot of things
+that I loved deeply: music, analog circuitry, DIY[^1], woodworking, collecting,
+and on it goes.
 
-I very quickly fell in love with the hobby, I'd spend my weekends going to
-record stores in Lisbon looking for whatever record I was obsessed with that
-week[^2], and most of my free time during the week went into reading about
-amplifier design and things like that. Being a software developer I quickly
-turned those projects into increasingly large amounts of analog-digital
-Frankenstein madness. It was a whole lot of fun, and I look back at that time
-with a deep sense of nostalgia.
+I quickly fell in love with the hobby, I'd spend my weekends going to record
+stores in Lisbon looking for whatever record I was obsessed with that week[^2],
+and most of my free time during the week went into reading about amplifier
+design and things like that. Being a software developer I quickly turned those
+projects into increasingly large amounts of analog-digital Frankenstein madness.
+It was a whole lot of fun, and I look back at that time with a deep sense of
+nostalgia.
 
 {{< figure src="/images/turntable.jpg" caption="My initial setup">}}
 
@@ -130,14 +123,20 @@ Somehow this entity of what I thought was my past has come back to help me cope
 with the present, and I can't wait until I have them back; until I have my hobby
 back.
 
-[^1]: This might be surprising to the uninitiated, but there is a lot of DIY projects around audio amplifiers and speakers.
+[^1]: This might be surprising to the uninitiated, but there is a lot of DIY
+    projects around audio amplifiers and speakers.
 
-[^2]: I once went to every single record store within 100 miles looking for a Stockhausen record, eventually surrendering to getting it on Discogs.
+[^2]: I once went to every single record store within 100 miles looking for a
+    Stockhausen record, eventually surrendering to getting it on Discogs.
 
-[^3]: I am Brazilian, and a portion of the Portuguese population holds a deep grudge against us that I have a hard time comprehending. It's a very weird form of xenophobia.
+[^3]: I am Brazilian, and a portion of the Portuguese population holds a deep
+    grudge against us that I have a hard time comprehending. It's a weird form of
+    xenophobia.
 
 [^4]: I bought Yusef Lateef's "Eastern Sounds" at Amoeba in LA.
 
-[^5]: With the exception of my girlfriend. I find that it is not uncommon for expatriates in the US to feel like Americans do not have friends, there is something really peculiar about how Americans deal with friendship.
+[^5]: With the exception of my girlfriend. I find that it is not uncommon for
+    expatriates in the US to feel like Americans do not have friends, there is
+    something really peculiar about how Americans deal with friendship.
 
 [^6]: If you are wondering, it's Quarteto Novo's self titled album.

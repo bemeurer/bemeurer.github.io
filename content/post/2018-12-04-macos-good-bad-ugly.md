@@ -1,16 +1,13 @@
----
-title: "macOS: The Good, The Bad, and The Ugly"
-date: 2018-12-04T20:13:15Z
-draft: true
-tags:
-  - opinion
-  - macos
-  - linux
-categories:
-    - essay
-comments: true
-markup: "mmark"
----
++++
+title = "macOS: The Good, The Bad, and The Ugly"
+date = 2019-11-12T00:00:01Z
+draft = true
+tags = [ "macos", "linux", "macbook", "opinion" ]
+categories = [ "essay" ]
+comments = true
+markup = "mmark"
++++
+
 ## Introduction
 
 As far as people's usual interaction with computers go, I think I've had a
@@ -39,7 +36,7 @@ began.
 
 ## The Good
 
-I've always wanted to give macOS[^1] a try, it always looked very beautiful and
+I've always wanted to give macOS[^1] a try, it always looked beautiful and
 polished to me. On top of that, there were certain applications that I had been
 interested in trying for a while, and that only ran on macOS. Moreover, the
 MacBook Pro's always seemed to me like the golden standard in hardware, they
@@ -49,8 +46,8 @@ about owning one.
 
 Six months in, I can say that some of my admiration was well deserved. Overall I
 find that the graphical experience on macOS is beautifully consistent, the
-entire OS just feels coherent and nice to use. I just really like the
-look & feel of macOS, especially Mojave with its very comfortable Dark Mode.
+entire OS just feels coherent and nice to use. I just really like the look &
+feel of macOS, especially Mojave with its comfortable Dark Mode.
 
 Another thing that I really liked was having the Numbers/Pages/Keynote software
 suit, it really does feel much better than LibreOffice. I wouldn't normally care
@@ -66,7 +63,7 @@ and becomes quite annoying with time, whereas Apple gets this almost entirely
 right enforcing consistency across the OS.
 
 Overall macOS feels well integrated, and mostly works well. Night mode (aka.
-Redshift or f.lux) works very well and starts to shift colors on my screen at
+Redshift or f.lux) works well and starts to shift colors on my screen at
 precisely the right times. Setting up Wi-Fi networks and Bluetooth devices is
 super easy and also works well, I've gotten great range with my Sony Wh-1000XM2
 when paired to the MacBook. Being able to take FaceTime calls on my computer
@@ -82,16 +79,16 @@ nothing is perfect. Secondly Xcode; I barely used Xcode during my time with the
 MacBook, mostly because IDEs just aren't my thing, but the few times I tried it
 to test things out it seemed fine.
 
-Now to the hardware: it's fantastic. The MacBook Pro[^2] feels absolutely amazing
-when you hold it, and looks beautiful. I can confidently say this laptop has the
-best look & feel of anything I've ever owned or used, period. The keyboard,
-despite all the heavy criticism on the internet, was rather good in my opinion,
-even though the ultra-short travel distance does make typing over long periods
-of time a little exhausting. The backlight on the keyboard is very nice, and the
-brightness levels are appropriate, and I find that they often hit the sweet-spot
-I needed for a variety of situations. The touchpad is truly phenomenal, and
-miles ahead of anything anyone else has to offer; I never thought a touchpad
-could feel this good. The screen is OK.
+Now to the hardware: it's fantastic. The MacBook Pro[^2] feels absolutely
+amazing when you hold it, and looks beautiful. I can confidently say this laptop
+has the best look & feel of anything I've ever owned or used, period. The
+keyboard, despite all the heavy criticism on the internet, was rather good in my
+opinion, even though the ultra-short travel distance does make typing over long
+periods of time a little exhausting. The backlight on the keyboard is nice, and
+the brightness levels are appropriate, and I find that they often hit the
+sweet-spot I needed for a variety of situations. The touchpad is truly
+phenomenal, and miles ahead of anything anyone else has to offer; I never
+thought a touchpad could feel this good. The screen is OK.
 
 Another note on hardware that I really feel deserves its own section is audio,
 because it's phenomenal. It is absolutely amazing to me that a laptop this thin
@@ -146,18 +143,18 @@ change workspaces or use the application switcher I will get angry.
 In a similar area I find it absolutely counter-intuitive that when I close the
 last window in some app it will remain "open" and clutter the already unusable
 app switcher. So instead of Cmd+w doing the job, you have to Cmd+q and then apps
-show you pop-ups when you are closing more than one window, very 2005. This
+show you pop-ups when you are closing more than one window, how 2005. This
 becomes supremely annoying when you open certain "one-shot" applications like
 Preview for a quick glance at a PDF.
 
 Now a brief intermission brought to you by macOS apps that absolutely don't cut
 it. Preview is lacklustre and I find it unusable for anything that isn't a
-simple viewing of a PDF. Spotlight is flaky, slow as molasses to detect newly
-installed apps, and I find its search accuracy to be sub par. Siri's only use is
-to make me angry when I click it as opposed to the hamburger menu that's right
-next to it. The Dashboard hasn't been updated since Father Abraham walked this
-earth, and it's also useless. Reminders is this weird mix between Calendar and
-Notes that I don't get.
+simple viewing of a PDF. Spotlight is flaky, slow to detect newly installed
+apps, and I find its search accuracy to be sub par. Siri's only use is to make
+me angry when I click it as opposed to the hamburger menu that's right next to
+it. The Dashboard hasn't been updated since Father Abraham walked this earth,
+and it's also useless. Reminders is this weird mix between Calendar and Notes
+that I don't get.
 
 Back to our scheduled program, let's talk about window management in macOS; it's
 also trash. I don't know what happened at Apple that caused them to have a
@@ -202,26 +199,26 @@ kernel modules for macOS, so things like Wireguard run in userspace. Also,
 DisplayLink drivers were broken on High Sierra and never really fixed, so my
 dual monitor setup stopped working almost immediately after I got the computer.
 
-Going on to hardware, for starters the components are a bit stunted if you
-want a MacBook Pro without the ridiculous touch bar. The CPU only has four
-threads (hyperthreaded), only has 16GB of RAM (the maximum available), but it
-does have a remarkably fast SSD. Overall it just doesn't feel very "pro," and
-there's really nowhere to run if you want to have a real Esc key. If that
-wasn't enough, I've discovered that my machine will randomly contact NASA to
-request a liftoff and starts running its fans at absolutely full blast, even
-though nothing is going on and I only have a single iTerm window open. At least
-the fans aren't very loud, even if they do have a particularly annoying
-high-pitched sound. Curiously, if you click the Siri button it immediately
-throttles the fans down and cancels its impending trip to Mars.
+Going on to hardware, for starters the components are a bit stunted if you want
+a MacBook Pro without the ridiculous touch bar. The CPU only has four threads
+(hyperthreaded), only has 16GB of RAM (the maximum available), but it does have
+a remarkably fast SSD. Overall it just doesn't feel "pro," and there's really
+nowhere to run if you want to have a real Esc key. If that wasn't enough, I've
+discovered that my machine will randomly contact NASA to request a liftoff and
+starts running its fans at absolutely full blast, even though nothing is going
+on and I only have a single iTerm window open. At least the fans aren't loud,
+even if they do have a particularly annoying high-pitched sound. Curiously, if
+you click the Siri button it immediately throttles the fans down and cancels its
+impending trip to Mars.
 
 Together with the Yuri Gagarin fans on my machine I also got really horrible
 battery life. I've always liked MacBooks for their notoriously good batteries,
-but I have found this to absolutely not be the case. My remaining battery
+alas I have found this to absolutely not be the case. My remaining battery
 estimates are mostly untrustworthy, and I probably can't get more than four
 hours on this MacBook. Also, I'm on board for the "USB-C all things!" bandwagon,
 despite the serious flaws of USB-C, but having only two ports is absolutely not
 enough, and please give me better ports, these are so flimsy connectors will
-pretty much just slide off of them.
+pretty much just slide off them.
 
 The crown jewel of hardware goofs on this laptop is most definitely the keyboard
 however. After only six months, my `2` is almost completely stuck and my
@@ -230,8 +227,8 @@ though I was prepared for this with all the criticism this keyboard has received
 and used an external keyboard almost the entire time I wasn't immune to the
 failures.
 
-As a final note on hardware, there is no or very poor Linux support, depending
-on which exact model you have. I tried to get Linux on it a few times when I got
+As a final note on hardware, there is no or poor Linux support, depending on
+which exact model you have. I tried to get Linux on it a few times when I got
 sick of macOS and failed to do so in any usable form.
 
 Overall some parts of macOS and the MacBook Pro are really bad, and in
@@ -253,13 +250,12 @@ feel, macOS succeeds.
 
 ## Conclusion
 
-If not for the very major flaws I outlined, the MacBook Pro would be an
-absolutely killer offering in the "pro-market." I find it to be a tremendous
-shame that Apple gets so many difficult things right, and then absolutely fails
-to provide usable solutions to the simpler problems. I think mainly macOS is a
-huge deterrent of the MacBook's potential, I find that it's just unusable for
-me, and the inability to just switch to Linux makes the entire laptop kind of
-useless.
+If not for the major flaws I outlined, the MacBook Pro would be an absolutely
+killer offering in the "pro-market." I find it to be a tremendous shame that
+Apple gets so many difficult things right, and then absolutely fails to provide
+usable solutions to the simpler problems. I think mainly macOS is a huge
+deterrent of the MacBook's potential, I find that it's just unusable for me, and
+the inability to just switch to Linux makes the entire laptop kind of useless.
 
 As for me, I am about to end my adventure through the world of Macs and going to
 a [Thinkpad P1][thinkpad][^4]. I think it's a much better suited machine for my
@@ -277,10 +273,14 @@ some of the points I raised are independent of that and valid regardless of it.
 Also, I hope I do not come off as an Apple or MacBook hater, I really wanted to
 love this machine and to love macOS, I just couldn't.
 
-[^1]: Note that I am specifically referring to my experience using macOS High Sierra and Mojave.
+[^1]: Note that I am specifically referring to my experience using macOS High
+    Sierra and Mojave.
 [^2]: Late 2017 model, 13", no touch bar.
-[^3]: I know I can disable that and make it closable, and I have, but still it's hidden in some obscure setting that must be enabled through some terminal command, what is this, GNOME?
-[^4]: With a Xeon E-2176M, Quadro P2000, 4K screen, 32GB of DDR4, and a 1TB NVME SSD.
+[^3]: I know I can disable that and make it closable, and I have, but still it's
+    hidden in some obscure setting that must be enabled through some terminal
+    command, what is this, GNOME?
+[^4]: With a Xeon E-2176M, Quadro P2000, 4K screen, 32GB of DDR4, and a 1TB NVME
+    SSD.
 
 [chunkwm]: https://koekeishiya.github.io/chunkwm
 [portage]: https://wiki.gentoo.org/wiki/Portage

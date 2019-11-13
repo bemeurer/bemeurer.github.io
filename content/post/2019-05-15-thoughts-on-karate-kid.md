@@ -1,17 +1,12 @@
----
-title: "Thoughts on Karate Kid"
-date: 2019-05-15T22:06:00Z
-draft: false
-tags:
-  - essay
-  - karate
-  - kid
-  - thoughts
-categories:
-    - essay
-comments: true
-markup: "mmark"
----
++++
+title = "Thoughts on Karate Kid"
+date = 2019-05-15T22:06:00Z
+draft = false
+tags = [ "karate", "kindness" ]
+categories = [ "essay" ]
+comments = true
+markup = "mmark"
++++
 
 Recently a video has surfaced (gone viral) of a young kid, who looks to be about
 four or five years old attempting to perform that classic cool "Breaking a slab
@@ -81,4 +76,8 @@ well as in their triumphs; to help our children gain confidence, something many
 of us only experience far too late in life. We all deserve to try, try, and try
 again without fear.
 
-[^1]: My parents would become increasingly supportive as I grew. Now, at 21, they are my bedrock; I am only able to take the risks I do today and to chase my objectives because of them, and because of how they've grown in this regard. I cannot be thankful enough to them for the safety they have given me in the past years.
+[^1]: My parents would become increasingly supportive as I grew. Now, at 21,
+    they are my bedrock; I am only able to take the risks I do today and to chase
+    my objectives because of them, and because of how they've grown in this
+    regard. I cannot be thankful enough to them for the safety they have given me
+    in the past years.
