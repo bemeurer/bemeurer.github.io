@@ -17,3 +17,7 @@
 ### Hugo ###
 hugo.exe
 /public/
+
+### Nix ###
+*.drv
+result
