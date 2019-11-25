@@ -5,7 +5,6 @@ draft = false
 tags = [ "iphone", "apple", "opinion" ]
 categories = [ "essay" ]
 comments = true
-markup = "mmark"
 +++
 
 {{<figure src="/images/2017-12-20/rotten-apple.jpg">}}

@@ -5,7 +5,6 @@ draft = false
 tags = [ "philosophy", "logic", "leibniz", "theory" ]
 categories = [ "essay" ]
 comments = true
-markup = "mmark"
 +++
 
 Let a *statement* be any sentence of form

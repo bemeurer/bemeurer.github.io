@@ -5,7 +5,6 @@ draft = true
 tags = [ "macos", "linux", "macbook", "opinion" ]
 categories = [ "essay" ]
 comments = true
-markup = "mmark"
 +++
 
 ## Introduction

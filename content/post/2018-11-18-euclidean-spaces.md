@@ -5,7 +5,6 @@ draft = false
 tags = [ "linear", "algebra", "mathematics", "euclidean" ]
 categories = [ "notes" ]
 comments = true
-markup = "mmark"
 +++
 
 ## Real euclidean spaces

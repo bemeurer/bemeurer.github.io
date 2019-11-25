@@ -5,7 +5,6 @@ draft = false
 tags = [ "drm", "intellectual", "property", "philosophy", "law" ]
 categories = [ "essay" ]
 comments = true
-markup = "mmark"
 +++
 
 In the Digital Era, copyright has become harder to enforce than ever before.

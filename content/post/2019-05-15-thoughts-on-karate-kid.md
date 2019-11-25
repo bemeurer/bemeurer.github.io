@@ -5,7 +5,6 @@ draft = false
 tags = [ "karate", "kindness" ]
 categories = [ "essay" ]
 comments = true
-markup = "mmark"
 +++
 
 Recently a video has surfaced (gone viral) of a young kid, who looks to be about

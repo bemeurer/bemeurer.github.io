@@ -5,7 +5,6 @@ draft = true
 tags = [ "arrays", "pointers", "C", "programming" ]
 categories = [ "essay" ]
 comments = true
-markup = "mmark"
 +++
 
 I've know C, and in particular C99, for quite a while now. I've finally reached

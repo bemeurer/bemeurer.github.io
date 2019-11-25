@@ -5,7 +5,6 @@ draft = false
 tags = [ "lenovo", "thinkpad", "bios", "nightmare" ]
 categories = [ "essay" ]
 comments = true
-markup = "mmark"
 +++
 
 A few weeks ago I finally got my new work computer. I had been using an
