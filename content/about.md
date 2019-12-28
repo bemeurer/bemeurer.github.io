@@ -5,52 +5,57 @@ meta = "false"
 weight = 100
 +++
 
-<img src="/images/misc/me.jpg" alt="Me" style="width: 400px;"/>
+{{< figure src="/images/misc/me.jpg#floatleft" >}}
 ⟵ Me
 
-Hey there, I'm Bernardo and I'm a Mathematics student. I set up this blog to share
-some of the projects I work on, immediately after that, however, my free time was
-pulverized. I enjoy running Linux on potato-like computers (and on actual
-potatos!), arbitrary precision arithmetics, and weird C bugs. I'm a quantum
-computing enthusiast as well.
+I'm Bernardo, a Systems Software Engineer at [Standard Cognition][stcg] where I
+work writing high-performance Rust[^1].
 
-I did some work on [factorial algorithms][fact] a while back, and I'm working on
-[cappy][cappy], [an implementation of Euler's Totient][euler], and an [Ackermann
-calculator][ack]. I maintain a [beautifier for Bash][beautysh], and I'm working
-on my own Rust-based OS called [Daedalos][daedalos]. I interned at
-[Async][async] for a while, and I'm now working for [Standard
-Cognition][standard]. You can always contact me at
-[meurerbernardo@gmail.com](mailto://meurerbernardo@gmail.com).
+I was born in Brazil, and studied Computer Engineering at [IST][ist] in Lisbon,
+Portugal before dropping out. I now live in San Francisco, California, and you
+can reach me at [bernardo@meurer.org][persmail].
 
 I'm an advocate for Open Source software and freedom of speech. Here are, for
 curiosity's sake, some other things I enjoy:
 
+* Problems
+  * Music archival
+  * Safe cross-process memory sharing
+  * OoO CPU design
+  * Declarative system configuration
+
 * Music
-  * Grieg, Edvard
+  * Hermeto Pascoal
   * Ravel, Maurice
-  * Rachmaninoff, Sergei
   * King Gizzard and The Lizard Wizard
-  * Black Flag
+  * Caetano Veloso
+  * Talking Heads
   * Death Grips
 
+* Projects
+  * Rust
+  * Gentoo
+  * bcachefs
+  * NixOS
+  * Neovim
+  * Alacritty
+
 * Movies
-  * Apocalypse Now
   * The Seventh Seal
-  * Wild Strawberries
   * The Great Beauty
+  * Apocalypse Now
+  * Wild Strawberries
 
 * Books
   * The Tale of The Unknown Island - José Saramago
+  * Discipline and Punish - Michel Foucault
   * The Stranger - Albert Camus
   * The World As Will and Representation - Arthur Schopenhauer
   * In Defense of Lost Causes - Slavoj Žižek
-  * Buddenbrooks - Thoman Mann
 
-[fact]: http://www.luschny.de/math/factorial/SwingIntro.pdf
-[cappy]: https://github.com/DanielSank/cappy
-[euler]: https://github.com/bemeurer/euler-function
-[ack]: https://github.com/bemeurer/multi-ackermann
-[beautysh]: https://github.com/bemeurer/beautysh
-[daedalos]: https://github.com/bemeurer/daedalos
-[async]: http://www.stoq.com.br/
-[standard]: http://standard.ai/
+[^1]: We're hiring! Contact me at [bernardo@standard.ai][workmail]
+
+[stcg]: https://standard.ai
+[ist]: https://tecnico.ulisboa.pt/en/
+[workmail]: mailto://bernardo@standard.ai
+[persmail]: mailto://bernardo@meurer.org
