@@ -1,14 +1,3 @@
-/* Force selection of entire .katex/.katex-display blocks, so that we can
- * copy/paste the entire source code.  If you omit this CSS, partial
- * selections of a formula will work, but will copy the ugly HTML
- * representation instead of the LaTeX source code.  (Full selections will
- * still produce the LaTeX source code.)
- */
-.katex,
-.katex-display {
-    user-select: all;
-    -moz-user-select: all;
-    -webkit-user-select: all;
-    -ms-user-select: all;
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7901605c8989c99a894f29df62359686661d77ea9386a95290fffee755d0783f
+size 462
