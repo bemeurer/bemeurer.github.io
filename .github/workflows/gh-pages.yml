@@ -27,9 +27,8 @@ jobs:
         run: hugo --minify
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./public
         with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           forceOrphan: true
+          publish_branch: master
+          publish_dir: ./public
