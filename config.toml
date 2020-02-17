@@ -24,6 +24,8 @@ summaryLength = 30
     googleAnalytics = "UA-75408326-1"
     smartToc = true
     paginate = 10
+    UtterancesRepo = "lovesegfault/lovesegfault.github.io"
+    UtterancesIssueTerm = "title"
 
 [markup]
 [markup.goldmark]
