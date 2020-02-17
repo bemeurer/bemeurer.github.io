@@ -12,40 +12,40 @@ googleAnalytics = "UA-75408326-1"
 summaryLength = 30
 
 [author]
-  name = "Bernardo Meurer"
-  github = "lovesegfault"
-  linkedin = "meurerbernardo"
-  twitter = "lovesegfault"
-  email = "bernardo@meurer.org"
+    name = "Bernardo Meurer"
+    github = "lovesegfault"
+    linkedin = "meurerbernardo"
+    twitter = "lovesegfault"
+    email = "bernardo@meurer.org"
 
 [params]
-  tagline = "Ideas expressed here are nobody's."
-  description = "Bernardo's ramblings and non sequuntur"
-  googleAnalytics = "UA-75408326-1"
-  smartToc = true
-  paginate = 10
+    tagline = "Ideas expressed here are nobody's."
+    description = "Bernardo's ramblings and non sequuntur"
+    googleAnalytics = "UA-75408326-1"
+    smartToc = true
+    paginate = 10
 
 [markup]
 [markup.goldmark]
 [markup.goldmark.extensions]
-  definitionList = true
-  footnote = true
-  linkify = true
-  strikethrough = true
-  table = true
-  taskList = true
-  typographer = true
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
 [markup.goldmark.parser]
-  attribute = true
-  autoHeadingID = true
+    attribute = true
+    autoHeadingID = true
 [markup.goldmark.renderer]
-  hardWraps = false
-  unsafe = false
-  xHTML = false
+    hardWraps = false
+    unsafe = false
+    xHTML = false
 [markup.highlight]
-  codeFences = true
-  guessSyntax = true
-  lineNoStart = 1
-  lineNos = true
-  lineNumbersInTable = true
-  style = "dracula"
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    style = "dracula"
