@@ -10,27 +10,27 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        lfs: true
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          lfs: true
       - name: Checkout Submodules
+        uses: actions/checkout@v2
         shell: bash
         run: |
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-    - name: Setup
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
-    - name: Build
-      run: hugo --minify
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: master
-        PUBLISH_DIR: ./public
-      with:
-        forceOrphan: true
+      - name: Setup
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+      - name: Build
+        run: hugo --minify
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public
+        with:
+          forceOrphan: true
