@@ -14,7 +14,6 @@ jobs:
         with:
           lfs: true
       - name: Checkout Submodules
-        uses: actions/checkout@v2
         shell: bash
         run: |
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
