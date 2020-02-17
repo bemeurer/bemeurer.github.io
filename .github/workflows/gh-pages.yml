@@ -9,13 +9,13 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
       with:
         lfs: true
         submodules: true
 
     - name: Setup
-      uses: peaceiris/actions-hugo@master
+      uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
 
@@ -23,7 +23,7 @@ jobs:
       run: hugo --minify
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@master
+      uses: peaceiris/actions-gh-pages@v3
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: master
