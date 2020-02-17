@@ -12,20 +12,20 @@ googleAnalytics = "UA-75408326-1"
 summaryLength = 30
 
 [author]
-    name = "Bernardo Meurer"
+    email = "bernardo@meurer.org"
     github = "lovesegfault"
     linkedin = "meurerbernardo"
+    name = "Bernardo Meurer"
     twitter = "lovesegfault"
-    email = "bernardo@meurer.org"
 
 [params]
-    tagline = "Ideas expressed here are nobody's."
     description = "Bernardo's ramblings and non sequuntur"
     googleAnalytics = "UA-75408326-1"
-    smartToc = true
     paginate = 10
-    UtterancesRepo = "lovesegfault/lovesegfault.github.io"
-    UtterancesIssueTerm = "title"
+    smartToc = true
+    tagline = "Ideas expressed here are nobody's."
+    utterancesIssueTerm = "title"
+    utterancesRepo = "lovesegfault/lovesegfault.github.io"
 
 [markup]
 [markup.goldmark]
