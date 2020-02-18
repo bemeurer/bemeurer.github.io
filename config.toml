@@ -24,8 +24,8 @@ summaryLength = 30
     paginate = 10
     smartToc = true
     tagline = "Ideas expressed here are nobody's."
-    utterancesIssueTerm = "title"
-    utterancesRepo = "lovesegfault/lovesegfault.github.io"
+    UtterancesIssueTerm = "title"
+    UtterancesRepo = "lovesegfault/lovesegfault.github.io"
 
 [markup]
 [markup.goldmark]
