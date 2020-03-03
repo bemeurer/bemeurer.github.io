@@ -8,5 +8,4 @@ mkShell {
     mdl
     proselint
   ];
-
 }
