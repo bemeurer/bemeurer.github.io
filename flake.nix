@@ -21,9 +21,7 @@
           name = "lovesegfault.github.io";
           src = gitignoreSource ./.;
 
-          nativeBuildInputs = [
-            hugo
-          ];
+          nativeBuildInputs = [ hugo ];
 
           makeFlags = [ "PREFIX=${placeholder "out"}" ];
         };
